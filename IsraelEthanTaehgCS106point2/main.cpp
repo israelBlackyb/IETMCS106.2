@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    QFile styleFile(":/styles/styleSheet.qss.txt");
+    QFile styleFile(":/styles/styleSheet.qss.txt"); //i think this is supposed to go into mainWindow?!
     styleFile.open(QFile::ReadOnly);
 
     QString style(styleFile.readAll());
