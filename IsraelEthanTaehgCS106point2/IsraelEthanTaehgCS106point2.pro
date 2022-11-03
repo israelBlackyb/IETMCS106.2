@@ -10,15 +10,18 @@ CONFIG += c++17
 
 SOURCES += \
     addbook.cpp \
+    catalogue.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     addbook.h \
+    catalogue.h \
     mainwindow.h
 
 FORMS += \
     addbook.ui \
+    catalogue.ui \
     mainwindow.ui
 
 # Default rules for deployment.
