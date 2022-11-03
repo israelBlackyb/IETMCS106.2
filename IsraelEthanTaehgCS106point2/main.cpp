@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "adminbookpage.h""
 
 #include <QApplication>
 #include <QString>
@@ -8,13 +9,13 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    QFile styleFile(":/styles/styleSheet.qss.txt"); //i think this is supposed to go into mainWindow?!
+    QFile styleFile(":/styles/styleSheet.qss.txt");
     styleFile.open(QFile::ReadOnly);
 
     QString style(styleFile.readAll());
     a.setStyleSheet(style);
 
-    MainWindow w;
+    AdminBookPage w;
     w.show();
     return a.exec();
 }

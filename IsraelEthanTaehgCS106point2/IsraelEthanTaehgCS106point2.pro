@@ -9,19 +9,20 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    filemanager.cpp \
+    adminbookpage.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    userbookpage.cpp
 
 HEADERS += \
-    filemanager.h \
-    mainwindow.h
+    adminbookpage.h \
+    mainwindow.h \
+    userbookpage.h
 
 FORMS += \
-    adminBookPage.ui \
-    filemanager.ui \
+    adminbookpage.ui \
     mainwindow.ui \
-    userBookPage.ui
+    userbookpage.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
