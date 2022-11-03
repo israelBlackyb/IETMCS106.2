@@ -1,8 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "filemanagement.h"
-
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -17,16 +15,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-private slots:
-
-    void on_signIn_clicked();
-
-    void on_signUp_clicked();
-
 private:
     Ui::MainWindow *ui;
-    fileManagement fManager;
-    bool signedIn=false;
-    void OpenWindow();
 };
 #endif // MAINWINDOW_H
