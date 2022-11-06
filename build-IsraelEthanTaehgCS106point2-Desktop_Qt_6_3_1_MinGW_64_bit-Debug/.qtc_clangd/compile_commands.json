@@ -570,10 +570,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\270159918\\OneDrive - UP Education\\Documents\\GitHub\\IETMCS106.2\\build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_adminbookpage.h"
+        "C:\\Users\\270159918\\OneDrive - UP Education\\Documents\\GitHub\\IETMCS106.2\\build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_userbookpage.h"
     ],
     "directory": "C:/Users/270159918/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/270159918/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_adminbookpage.h"
+    "file": "C:/Users/270159918/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_userbookpage.h"
 },
 {
     "arguments": [
@@ -714,9 +714,9 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\270159918\\OneDrive - UP Education\\Documents\\GitHub\\IETMCS106.2\\build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_userbookpage.h"
+        "C:\\Users\\270159918\\OneDrive - UP Education\\Documents\\GitHub\\IETMCS106.2\\build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_adminbookpage.h"
     ],
     "directory": "C:/Users/270159918/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/270159918/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_userbookpage.h"
+    "file": "C:/Users/270159918/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_adminbookpage.h"
 }
 ]
