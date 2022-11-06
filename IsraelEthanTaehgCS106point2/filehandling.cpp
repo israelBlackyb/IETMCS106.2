@@ -2,6 +2,7 @@
 
 #include <QFile>
 #include <QTextStream>
+#include <QDebug>
 
 FileHandling::FileHandling()
 {
@@ -23,10 +24,12 @@ void FileHandling::WriteFile(QString fileName, QVector<QString> fileContent){ //
     QTextStream stream(&file); //allows read/write functionality
     for(int i=0; i<fileContent.size(); i++) { //runs loop for however many items are in the file
         stream << fileContent.at(i); //adds file content at each position to the stream
-        if (i !=fileContent.size()-12){ //adds a comma to the end of cell
+        if (i !=fileContent.size()-1){ //adds a comma to the end of cell
+            qDebug() << "" << i << "\t" << fileContent.size();
             stream<<",";
         }
         else{
+            qDebug() << "hit";
             stream<<"\n"; //but if there is no filled cell after, adds it to the next line
         }
     }
@@ -44,15 +47,19 @@ bool FileHandling::CheckValidUser(QString userName, QString fileName) { // used 
     for(int i =0; i<content.size();i++) { //loops through content and stops when none left
         if(content.at(i).at(0)==userName) { //if the entered username matches any in the list, returns true
             nameFound=true;
+            qDebug() << "Previous User Found";
             return false; //idk
         }
         else{
+            qDebug() << "Next Iteration";
             continue; //if the name isn't found, it goes to the next col
         }
     }
     if(!nameFound){
+        qDebug() << "Hit No Previous Users";
         return true; //if it isn't found, exits
     }
+    qDebug() << "Sasfety guard";
     return false; //If it gets pass both checks (unlikely) it is gauranteed to return false
 }
 

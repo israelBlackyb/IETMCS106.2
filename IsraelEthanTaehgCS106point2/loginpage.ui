@@ -59,6 +59,9 @@
       <height>24</height>
      </rect>
     </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
