@@ -307,7 +307,7 @@
         <item>
          <widget class="QPlainTextEdit" name="plainTextEdit_2">
           <property name="plainText">
-           <string>Text Description
+           <string>Text Descriptions
 </string>
           </property>
          </widget>
