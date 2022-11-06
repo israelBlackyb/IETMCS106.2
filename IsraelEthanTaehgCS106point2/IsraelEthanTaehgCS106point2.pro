@@ -10,17 +10,22 @@ CONFIG += c++17
 
 SOURCES += \
     adminbookpage.cpp \
+    filehandling.cpp \
+    loginpage.cpp \
     main.cpp \
     mainwindow.cpp \
     userbookpage.cpp
 
 HEADERS += \
     adminbookpage.h \
+    filehandling.h \
+    loginpage.h \
     mainwindow.h \
     userbookpage.h
 
 FORMS += \
     adminbookpage.ui \
+    loginpage.ui \
     mainwindow.ui \
     userbookpage.ui
 
