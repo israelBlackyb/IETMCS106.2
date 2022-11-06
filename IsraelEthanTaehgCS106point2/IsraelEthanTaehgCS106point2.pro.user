@@ -237,6 +237,7 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/270188522/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/IsraelEthanTaehgCS106point2/IsraelEthanTaehgCS106point2.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/270188522/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/IsraelEthanTaehgCS106point2/IsraelEthanTaehgCS106point2.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">IsraelEthanTaehgCS106point22</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
