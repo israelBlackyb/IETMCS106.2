@@ -37,7 +37,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>LogIn</string>
+     <string>Login</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="userField">

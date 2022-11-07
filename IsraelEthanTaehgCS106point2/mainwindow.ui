@@ -201,7 +201,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="AccountButton">
+       <widget class="QPushButton" name="loginReg">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -349,7 +349,7 @@
            <height>200</height>
           </size>
          </property>
-         <widget class="QWidget" name="">
+         <widget class="QWidget" name="layoutWidget">
           <property name="geometry">
            <rect>
             <x>0</x>
