@@ -14,7 +14,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-//activate Login button to take you to Login page
+
 
 
 void MainWindow::on_loginReg_clicked()
@@ -24,6 +24,19 @@ void MainWindow::on_loginReg_clicked()
     hide();         // this is to hide the previous window
     lp = new LoginPage(this);
     lp->show();
+
+}
+
+
+void MainWindow::on_homeButton_clicked()
+{
+    //have homebutton do nothing if the mainWindow is open
+
+    MainWindow *mw;
+    mw =new MainWindow();
+    hide();
+    mw = new MainWindow(this);
+    mw->show();
 
 }
 
