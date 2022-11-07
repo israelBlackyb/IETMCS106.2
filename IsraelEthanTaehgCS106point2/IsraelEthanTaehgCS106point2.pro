@@ -22,7 +22,7 @@ HEADERS += \
     adminbookpage.h \
     filehandling.h \
     loginpage.h \
-    userbookpage.h
+    userbookpage.h \
     addbook.h \
     catalogue.h \
     mainwindow.h
@@ -32,7 +32,7 @@ FORMS += \
     catalogue.ui \
     adminbookpage.ui \
     loginpage.ui \
-    userbookpage.ui
+    userbookpage.ui \
     mainwindow.ui
 
 # Default rules for deployment.
