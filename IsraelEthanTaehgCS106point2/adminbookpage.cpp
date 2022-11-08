@@ -19,6 +19,8 @@ AdminBookPage::AdminBookPage(QWidget *parent) :
     QPushButton* cancelBtn = new QPushButton(editBox);
     cancelBtn->setText("Cancel");
     saveBtn->connect(cancelBtn, SIGNAL(clicked()), this, SLOT(cancelClicked()));
+    saveBtn->connect(cancelBtn, SIGNAL(clicked()), this, SLOT(cancelClicked()));
+    cancelBtn->setText("Cancel");
 
         //Create instance of vertical layout group, horizontal layout group, and spacer
         //Populate the layout groups with each element created
