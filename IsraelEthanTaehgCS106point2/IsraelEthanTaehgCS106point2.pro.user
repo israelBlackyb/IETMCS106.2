@@ -239,7 +239,6 @@
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/270161698/OneDrive - UP Education/Documents/GitHub/IETMCS106.2/IsraelEthanTaehgCS106point2/IsraelEthanTaehgCS106point2.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
-    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/270161698/OneDrive - UP Education/Documents/GitHub/build-IsraelEthanTaehgCS106point2-Desktop_Qt_6_3_1_MinGW_64_bit-Debug</value>
