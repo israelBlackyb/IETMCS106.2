@@ -31,11 +31,9 @@ void LoginPage::on_sign_clicked()
         fHand.WriteFile("LoginInformation", content);
         QMessageBox box(this);
         box.setIcon(QMessageBox::Information);
-        box.setText("You have successfully signed up\nPlease Login to continue");
+        box.setText("You have successfully signed up");
         box.setWindowTitle("Sign up");
         box.setStandardButtons(QMessageBox::Ok);
-        userField->setText("");
-        passField->setText("");
         int returnVal=box.exec();
         switch (returnVal) {
         case QMessageBox::Ok:
