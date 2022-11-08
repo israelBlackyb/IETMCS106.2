@@ -15,6 +15,11 @@ public:
     explicit Catalogue(QWidget *parent = nullptr);
     ~Catalogue();
 
+private slots:
+    void on_homeButton_clicked();
+
+    void on_AccountButton_clicked();
+
 private:
     Ui::Catalogue *ui;
 };

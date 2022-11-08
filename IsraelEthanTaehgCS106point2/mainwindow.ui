@@ -79,7 +79,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="genresButton">
+       <widget class="QPushButton" name="genres">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
