@@ -1,9 +1,6 @@
 #include "mainwindow.h"
 #include "adminbookpage.h"
-<<<<<<< HEAD
 #include "loginpage.h"
-=======
->>>>>>> Taehg
 
 #include <QApplication>
 #include <QString>
@@ -19,7 +16,7 @@ int main(int argc, char *argv[])
     QString style(styleFile.readAll());
     a.setStyleSheet(style);
 
-    LoginPage w;
+    AdminBookPage w;
     w.show();
     return a.exec();
 }

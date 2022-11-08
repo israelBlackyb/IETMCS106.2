@@ -17,10 +17,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-<<<<<<< HEAD
-=======
 private slots:
->>>>>>> Taehg
 
 private:
     Ui::MainWindow *ui;

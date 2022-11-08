@@ -15,13 +15,10 @@ public:
     explicit userbookpage(QWidget *parent = nullptr);
     ~userbookpage();
 
-<<<<<<< HEAD
-=======
 private slots:
 
     void on_homeBtn_clicked();
 
->>>>>>> Taehg
 private:
     Ui::userbookpage *ui;
 };
