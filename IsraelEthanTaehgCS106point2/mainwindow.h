@@ -17,11 +17,10 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-
+<<<<<<< HEAD
+=======
 private slots:
-    void on_loginReg_clicked();
-
-    void on_homeButton_clicked();
+>>>>>>> Taehg
 
 private:
     Ui::MainWindow *ui;

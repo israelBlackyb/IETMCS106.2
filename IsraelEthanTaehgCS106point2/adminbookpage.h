@@ -5,6 +5,10 @@
 #include <QDialog>
 #include <QLineEdit>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Taehg
 namespace Ui {
 class AdminBookPage;
 }
