@@ -3,6 +3,7 @@ QWidget
 {
         background-color: #B4CCE4;
         color: red;
+        border-color: #fff;
 
 }
 
