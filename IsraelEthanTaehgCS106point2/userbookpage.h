@@ -15,10 +15,6 @@ public:
     explicit userbookpage(QWidget *parent = nullptr);
     ~userbookpage();
 
-private slots:
-
-    void on_homeBtn_clicked();
-
 private:
     Ui::userbookpage *ui;
 };
