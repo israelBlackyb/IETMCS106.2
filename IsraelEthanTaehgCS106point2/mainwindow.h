@@ -21,6 +21,8 @@ private slots:
 
     void on_homeButton_clicked();
 
+    void on_loginReg_clicked();
+
 private:
     Ui::MainWindow *ui;
 
