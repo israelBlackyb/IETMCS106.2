@@ -309,6 +309,9 @@
       </item>
       <item>
        <widget class="QLineEdit" name="bookSearchBar">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
         <property name="text">
          <string>Search...</string>
         </property>
