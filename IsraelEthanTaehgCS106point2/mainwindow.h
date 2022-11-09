@@ -25,7 +25,6 @@ private slots:
 
     void on_genres_clicked();
 
-
 private:
     Ui::MainWindow *ui;
 
