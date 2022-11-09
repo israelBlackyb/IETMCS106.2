@@ -2,7 +2,7 @@
 QWidget
 {
         background-color: #B4CCE4;
-        color: red;
+        color: blue;    /*colour of text*/
         border-color: #fff;
 
 }
@@ -18,6 +18,12 @@ QLabel
 
 }
 
+/*----layout---*/
+QhorizontalLayout
+{
+    background-color: #fff;
+    border-color: #fff;
+}
 
 /*-----QPushButton-----*/
 QPushButton
