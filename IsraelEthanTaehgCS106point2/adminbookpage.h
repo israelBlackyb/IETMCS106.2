@@ -17,7 +17,7 @@ public:
     ~AdminBookPage();
 
 private slots:
-    void on_EditBtn_clicked();
+    void on_summaryEditBtn_clicked();
 
     void saveClicked();
     void cancelClicked();
