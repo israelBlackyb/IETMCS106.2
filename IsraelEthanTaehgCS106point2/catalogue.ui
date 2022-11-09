@@ -585,14 +585,69 @@
              <x>0</x>
              <y>0</y>
              <width>964</width>
-             <height>1142</height>
+             <height>1166</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout">
             <item>
              <layout class="QGridLayout" name="gridLayout">
-              <item row="4" column="12">
-               <spacer name="horizontalSpacer_20">
+              <item row="8" column="10">
+               <widget class="QPushButton" name="bookButton_12">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book12</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="6">
+               <widget class="QPushButton" name="bookButton_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book2</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="8">
+               <widget class="QPushButton" name="bookButton_7">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book7</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <spacer name="verticalSpacer_11">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="8" column="0">
+               <spacer name="horizontalSpacer_22">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
                 </property>
@@ -601,58 +656,84 @@
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>15</width>
+                  <width>10</width>
                   <height>20</height>
                  </size>
                 </property>
                </spacer>
               </item>
-              <item row="5" column="8">
-               <spacer name="verticalSpacer_18">
+              <item row="8" column="12">
+               <spacer name="horizontalSpacer_28">
                 <property name="orientation">
-                 <enum>Qt::Vertical</enum>
+                 <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Minimum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>20</width>
+                  <width>10</width>
                   <height>20</height>
                  </size>
                 </property>
                </spacer>
               </item>
-              <item row="7" column="8">
-               <spacer name="verticalSpacer_15">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="2" column="1">
-               <widget class="QPushButton" name="bookButton_1">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
+              <item row="3" column="6">
+               <widget class="QLabel" name="bookLabel_2">
                 <property name="text">
-                 <string>Book1</string>
+                 <string>Book2</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
-              <item row="5" column="6">
+              <item row="2" column="10">
+               <widget class="QPushButton" name="bookButton_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book4</string>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="9">
+               <spacer name="horizontalSpacer_29">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="3">
+               <spacer name="horizontalSpacer_12">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="7" column="6">
                <spacer name="verticalSpacer_13">
                 <property name="orientation">
                  <enum>Qt::Vertical</enum>
@@ -668,8 +749,477 @@
                 </property>
                </spacer>
               </item>
-              <item row="4" column="9">
+              <item row="8" column="1">
+               <widget class="QPushButton" name="bookButton_9">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book9</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="9">
+               <spacer name="horizontalSpacer_16">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="5" column="12">
+               <spacer name="horizontalSpacer_20">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>15</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="11" column="9">
+               <spacer name="horizontalSpacer_26">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="bookLabel_1">
+                <property name="text">
+                 <string>Book1</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="8">
+               <widget class="QPushButton" name="bookButton_3">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book3</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="6">
+               <widget class="QLabel" name="bookLabel_10">
+                <property name="text">
+                 <string>Book10</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="10">
+               <widget class="QLabel" name="bookLabel_12">
+                <property name="text">
+                 <string>Book12</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="12" column="10">
+               <widget class="QLabel" name="bookLabel_16">
+                <property name="text">
+                 <string>Book16</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="6">
+               <widget class="QPushButton" name="bookButton_6">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book6</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="8">
+               <widget class="QLabel" name="bookLabel_3">
+                <property name="text">
+                 <string>Book3</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="13" column="1">
+               <spacer name="verticalSpacer_21">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>17</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="11" column="0">
+               <spacer name="horizontalSpacer_21">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>10</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="5" column="3">
+               <spacer name="horizontalSpacer_14">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="5" column="9">
                <spacer name="horizontalSpacer_19">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="7" column="10">
+               <spacer name="verticalSpacer_17">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="11" column="10">
+               <widget class="QPushButton" name="bookButton_16">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book16</string>
+                </property>
+               </widget>
+              </item>
+              <item row="12" column="1">
+               <widget class="QLabel" name="bookLabel_13">
+                <property name="text">
+                 <string>Book13</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="10">
+               <spacer name="verticalSpacer_16">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>17</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="11" column="3">
+               <spacer name="horizontalSpacer_25">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="8" column="8">
+               <widget class="QPushButton" name="bookButton_11">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book11</string>
+                </property>
+               </widget>
+              </item>
+              <item row="12" column="8">
+               <widget class="QLabel" name="bookLabel_15">
+                <property name="text">
+                 <string>Book15</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="6">
+               <widget class="QPushButton" name="bookButton_10">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book10</string>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="1">
+               <spacer name="verticalSpacer_12">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="11" column="6">
+               <widget class="QPushButton" name="bookButton_14">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book14</string>
+                </property>
+               </widget>
+              </item>
+              <item row="11" column="12">
+               <spacer name="horizontalSpacer_23">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>10</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="7" column="8">
+               <spacer name="verticalSpacer_18">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="4" column="6">
+               <spacer name="verticalSpacer_6">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="11" column="1">
+               <widget class="QPushButton" name="bookButton_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book13</string>
+                </property>
+               </widget>
+              </item>
+              <item row="13" column="10">
+               <spacer name="verticalSpacer_19">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>17</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="4" column="10">
+               <spacer name="verticalSpacer_9">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="12" column="6">
+               <widget class="QLabel" name="bookLabel_14">
+                <property name="text">
+                 <string>Book14</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="10">
+               <widget class="QPushButton" name="bookButton_8">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book8</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="12">
+               <spacer name="horizontalSpacer_17">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>15</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="7">
+               <spacer name="horizontalSpacer_15">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
                 </property>
@@ -700,183 +1250,7 @@
                 </property>
                </spacer>
               </item>
-              <item row="7" column="1">
-               <spacer name="verticalSpacer_12">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="2" column="12">
-               <spacer name="horizontalSpacer_17">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>15</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="9" column="8">
-               <spacer name="verticalSpacer_22">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>17</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="9" column="1">
-               <spacer name="verticalSpacer_21">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>17</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="6" column="0">
-               <spacer name="horizontalSpacer_22">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>10</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="9" column="6">
-               <spacer name="verticalSpacer_20">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>17</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="2" column="9">
-               <spacer name="horizontalSpacer_16">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>30</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="6" column="9">
-               <spacer name="horizontalSpacer_29">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>30</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="7" column="6">
-               <spacer name="verticalSpacer_14">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="6" column="12">
-               <spacer name="horizontalSpacer_28">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>10</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="3" column="8">
-               <spacer name="verticalSpacer_8">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="4" column="0">
+              <item row="5" column="0">
                <spacer name="horizontalSpacer_13">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
@@ -892,39 +1266,52 @@
                 </property>
                </spacer>
               </item>
-              <item row="8" column="0">
-               <spacer name="horizontalSpacer_21">
+              <item row="4" column="8">
+               <spacer name="verticalSpacer_8">
                 <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
+                 <enum>Qt::Vertical</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Minimum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>10</width>
+                  <width>20</width>
                   <height>20</height>
                  </size>
                 </property>
                </spacer>
               </item>
-              <item row="4" column="3">
-               <spacer name="horizontalSpacer_14">
+              <item row="13" column="8">
+               <spacer name="verticalSpacer_22">
                 <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
+                 <enum>Qt::Vertical</enum>
                 </property>
                 <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
+                 <enum>QSizePolicy::Minimum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>30</width>
+                  <width>17</width>
                   <height>20</height>
                  </size>
                 </property>
                </spacer>
               </item>
-              <item row="8" column="7">
+              <item row="5" column="1">
+               <widget class="QPushButton" name="bookButton_5">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book5</string>
+                </property>
+               </widget>
+              </item>
+              <item row="11" column="7">
                <spacer name="horizontalSpacer_24">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
@@ -940,148 +1327,7 @@
                 </property>
                </spacer>
               </item>
-              <item row="3" column="10">
-               <spacer name="verticalSpacer_9">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="3" column="6">
-               <spacer name="verticalSpacer_6">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="3" column="1">
-               <spacer name="verticalSpacer_7">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="2" column="6">
-               <widget class="QPushButton" name="bookButton_2">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book2</string>
-                </property>
-               </widget>
-              </item>
-              <item row="5" column="1">
-               <spacer name="verticalSpacer_11">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="9" column="10">
-               <spacer name="verticalSpacer_19">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>17</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="2" column="3">
-               <spacer name="horizontalSpacer_12">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>30</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="8" column="9">
-               <spacer name="horizontalSpacer_26">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>30</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="2" column="7">
-               <spacer name="horizontalSpacer_15">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>30</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="4" column="7">
+              <item row="5" column="7">
                <spacer name="horizontalSpacer_18">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
@@ -1097,23 +1343,56 @@
                 </property>
                </spacer>
               </item>
-              <item row="8" column="3">
-               <spacer name="horizontalSpacer_25">
+              <item row="9" column="1">
+               <widget class="QLabel" name="bookLabel_9">
+                <property name="text">
+                 <string>Book9</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <spacer name="verticalSpacer_7">
                 <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
+                 <enum>Qt::Vertical</enum>
                 </property>
                 <property name="sizeType">
-                 <enum>QSizePolicy::Maximum</enum>
+                 <enum>QSizePolicy::Minimum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>30</width>
+                  <width>20</width>
                   <height>20</height>
                  </size>
                 </property>
                </spacer>
               </item>
-              <item row="6" column="7">
+              <item row="2" column="1">
+               <widget class="QPushButton" name="bookButton_1">
+                <property name="minimumSize">
+                 <size>
+                  <width>175</width>
+                  <height>234</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Book1</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="8">
+               <widget class="QLabel" name="bookLabel_11">
+                <property name="text">
+                 <string>Book11</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="7">
                <spacer name="horizontalSpacer_27">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
@@ -1129,53 +1408,8 @@
                 </property>
                </spacer>
               </item>
-              <item row="8" column="12">
-               <spacer name="horizontalSpacer_23">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>10</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="2" column="8">
-               <widget class="QPushButton" name="bookButton_3">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book3</string>
-                </property>
-               </widget>
-              </item>
-              <item row="5" column="10">
-               <spacer name="verticalSpacer_17">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeType">
-                 <enum>QSizePolicy::Minimum</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="7" column="10">
-               <spacer name="verticalSpacer_16">
+              <item row="13" column="6">
+               <spacer name="verticalSpacer_20">
                 <property name="orientation">
                  <enum>Qt::Vertical</enum>
                 </property>
@@ -1190,155 +1424,12 @@
                 </property>
                </spacer>
               </item>
-              <item row="2" column="10">
-               <widget class="QPushButton" name="bookButton_4">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book4</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="1">
-               <widget class="QPushButton" name="bookButton_5">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book5</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="1">
-               <widget class="QPushButton" name="bookButton_9">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book9</string>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="1">
-               <widget class="QPushButton" name="bookButton_13">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book13</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="6">
-               <widget class="QPushButton" name="bookButton_6">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book6</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="8">
-               <widget class="QPushButton" name="bookButton_7">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book7</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="10">
-               <widget class="QPushButton" name="bookButton_8">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book8</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="6">
-               <widget class="QPushButton" name="bookButton_10">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book10</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="8">
-               <widget class="QPushButton" name="bookButton_11">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book11</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="10">
-               <widget class="QPushButton" name="bookButton_12">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book12</string>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="6">
-               <widget class="QPushButton" name="bookButton_14">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Book14</string>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="8">
+              <item row="11" column="8">
                <widget class="QPushButton" name="bookButton_15">
                 <property name="minimumSize">
                  <size>
                   <width>175</width>
-                  <height>250</height>
+                  <height>234</height>
                  </size>
                 </property>
                 <property name="text">
@@ -1346,20 +1437,17 @@
                 </property>
                </widget>
               </item>
-              <item row="8" column="10">
-               <widget class="QPushButton" name="bookButton_16">
-                <property name="minimumSize">
-                 <size>
-                  <width>175</width>
-                  <height>250</height>
-                 </size>
-                </property>
+              <item row="3" column="10">
+               <widget class="QLabel" name="bookLabel_4">
                 <property name="text">
-                 <string>Book16</string>
+                 <string>Book4</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
-              <item row="6" column="3">
+              <item row="8" column="3">
                <spacer name="horizontalSpacer_31">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
@@ -1374,6 +1462,78 @@
                  </size>
                 </property>
                </spacer>
+              </item>
+              <item row="10" column="8">
+               <spacer name="verticalSpacer_15">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="10" column="6">
+               <spacer name="verticalSpacer_14">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="6" column="1">
+               <widget class="QLabel" name="bookLabel_5">
+                <property name="text">
+                 <string>Book5</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="6">
+               <widget class="QLabel" name="bookLabel_6">
+                <property name="text">
+                 <string>Book6</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="8">
+               <widget class="QLabel" name="bookLabel_7">
+                <property name="text">
+                 <string>Book7</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="10">
+               <widget class="QLabel" name="bookLabel_8">
+                <property name="text">
+                 <string>Book8</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
