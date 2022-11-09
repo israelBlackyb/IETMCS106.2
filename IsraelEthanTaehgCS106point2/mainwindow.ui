@@ -292,6 +292,19 @@
          </widget>
         </item>
         <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Search</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <spacer name="horizontalSpacer_4">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
@@ -301,7 +314,7 @@
           </property>
           <property name="sizeHint" stdset="0">
            <size>
-            <width>200</width>
+            <width>160</width>
             <height>20</height>
            </size>
           </property>
