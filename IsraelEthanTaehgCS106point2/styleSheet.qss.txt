@@ -2,7 +2,7 @@
 QWidget
 {
         background-color: #B4CCE4;
-        color: blue;    /*colour of text*/
+        color: black;    /*colour of text*/
         border-color: #fff;
 
 }
@@ -16,13 +16,6 @@ QLabel
         font-weight: bold;
         font-size: 13px;
 
-}
-
-/*----layout---*/
-QhorizontalLayout
-{
-    background-color: #fff;
-    border-color: #fff;
 }
 
 /*-----QPushButton-----*/
@@ -113,7 +106,7 @@ QCheckBox::indicator:disabled
 {
         background-color: #656565;
         color: #656565;
-    border: 1px solid #656565;
+        border: 1px solid #656565;
 
 }
 
@@ -121,11 +114,24 @@ QCheckBox::indicator:disabled
 /*-----QLineEdit-----*/
 QLineEdit
 {
-        background-color: #c2c7d5;
+        background-color: #fff;
         color: #2a547f;
-        border: none;
+        border-top-right-radius: 9px;
+        border-top-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        border-bottom-left-radius: 9px;
         padding: 5px;
 
+}
+
+QTextEdit
+{
+        background-color: #fff;
+        border-top-right-radius: 9px;
+        border-top-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        border-bottom-left-radius: 9px;
+        padding: 5px;
 }
 
 

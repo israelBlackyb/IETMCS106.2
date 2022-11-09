@@ -3,4 +3,8 @@
     <qresource prefix="/styles">
         <file>styleSheet.qss.txt</file>
     </qresource>
+    <qresource prefix="/fonts">
+        <file>NotoSerif-Bold.ttf</file>
+        <file>NotoSerif-Regular.ttf</file>
+    </qresource>
 </RCC>

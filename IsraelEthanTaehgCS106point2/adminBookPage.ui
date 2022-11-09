@@ -280,6 +280,9 @@
               </item>
               <item>
                <widget class="QPushButton" name="summaryEditBtn">
+                <property name="styleSheet">
+                 <string notr="true">border-color: #000;</string>
+                </property>
                 <property name="text">
                  <string>PushButton</string>
                 </property>
