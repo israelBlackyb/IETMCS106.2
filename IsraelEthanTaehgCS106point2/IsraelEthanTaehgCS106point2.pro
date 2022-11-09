@@ -13,7 +13,6 @@ SOURCES += \
     adminbookpage.cpp \
     filehandling.cpp \
     loginpage.cpp \
-    addbook.cpp \
     catalogue.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -25,7 +24,6 @@ HEADERS += \
     filehandling.h \
     loginpage.h \
     userbookpage.h \
-    addbook.h \
     catalogue.h \
     mainwindow.h
 
