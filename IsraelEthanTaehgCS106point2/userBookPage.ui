@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>807</width>
-    <height>1105</height>
+    <width>803</width>
+    <height>1177</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,7 +38,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="homeBtn">
+       <widget class="QPushButton" name="userHomeBtn">
         <property name="text">
          <string>Home</string>
         </property>
@@ -52,7 +52,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="userGenreBtn">
         <property name="text">
          <string>Genres</string>
         </property>
@@ -66,7 +66,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="userPopBtn">
         <property name="text">
          <string>Popular</string>
         </property>
@@ -80,7 +80,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="userResBtn">
         <property name="text">
          <string>Reserves</string>
         </property>
@@ -97,7 +97,7 @@
         <property name="sizeHint" stdset="0">
          <size>
           <width>20</width>
-          <height>90</height>
+          <height>50</height>
          </size>
         </property>
        </spacer>
@@ -123,7 +123,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="QPushButton" name="userLogRegBtn">
         <property name="text">
          <string>Register/Login</string>
         </property>
@@ -268,14 +268,14 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_3">
               <item>
-               <widget class="QPushButton" name="pushButton_6">
+               <widget class="QPushButton" name="userCheckBtn">
                 <property name="text">
                  <string>Checkout</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_7">
+               <widget class="QPushButton" name="userAddListBtn">
                 <property name="text">
                  <string>Add To List</string>
                 </property>
@@ -340,9 +340,12 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_12">
-          <property name="text">
-           <string>summary content</string>
+         <widget class="QTextBrowser" name="textBrowser">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>120</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -367,9 +370,18 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_14">
-          <property name="text">
-           <string>Subject content</string>
+         <widget class="QTextBrowser" name="textBrowser_2">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>100</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -394,11 +406,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_16">
-          <property name="text">
-           <string>Content contents</string>
-          </property>
-         </widget>
+         <widget class="QTextBrowser" name="textBrowser_3"/>
         </item>
         <item>
          <spacer name="verticalSpacer_6">
@@ -421,9 +429,12 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_18">
-          <property name="text">
-           <string>Notes Content</string>
+         <widget class="QTextBrowser" name="textBrowser_4">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>100</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -448,9 +459,12 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_20">
-          <property name="text">
-           <string>Description content</string>
+         <widget class="QTextBrowser" name="textBrowser_5">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -475,9 +489,12 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_22">
-          <property name="text">
-           <string>Publisher content</string>
+         <widget class="QTextBrowser" name="textBrowser_6">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -502,9 +519,12 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_24">
-          <property name="text">
-           <string>Editition content</string>
+         <widget class="QTextBrowser" name="textBrowser_7">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -529,9 +549,12 @@
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_26">
-          <property name="text">
-           <string>ISBN number</string>
+         <widget class="QTextBrowser" name="textBrowser_8">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>30</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -562,7 +585,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>807</width>
+     <width>803</width>
      <height>21</height>
     </rect>
    </property>
