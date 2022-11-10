@@ -36,7 +36,7 @@ void Catalogue::on_AccountButton_clicked()
 
 void Catalogue::on_search_clicked()
 {
-    ui->scrollContents->setLayout(ui->horizontalLayout);
-    QString searchedText = ui->lineEdit_bookSearchText->text();
+    ui->scrollAreaWidgetContents->setLayout(ui->horizontalLayout);
+    QString searchedText = ui->bookSearchBar->text();
 }
 
