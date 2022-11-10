@@ -18,6 +18,14 @@ QLabel
 
 }
 
+/*----QLineEdit---*/
+QLineEdit
+{
+        border-color: rgb(0, 0, 0);
+        border-width : 1.2px;
+        border-style:inset;
+}
+
 /*-----QPushButton-----*/
 QPushButton
 {
@@ -30,6 +38,10 @@ QPushButton
         border-bottom-right-radius: 9px;
         border-bottom-left-radius: 9px;
         padding: 10px;
+
+        border-color: rgb(0, 0, 0);
+        border-width : 1.2px;
+        border-style:inset;
 
 }
 
