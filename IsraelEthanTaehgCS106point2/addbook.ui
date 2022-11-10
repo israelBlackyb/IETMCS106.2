@@ -17,35 +17,35 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="homeButton">
+      <widget class="QPushButton" name="home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="addBookButton">
+      <widget class="QPushButton" name="addBook">
        <property name="text">
         <string>Add Book</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="editBookButton">
+      <widget class="QPushButton" name="editBook">
        <property name="text">
         <string>Edit Book</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="accountManagerButton">
+      <widget class="QPushButton" name="accountManager">
        <property name="text">
         <string>Account Manager</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="addUserButton">
+      <widget class="QPushButton" name="addUser">
        <property name="text">
         <string>Add User</string>
        </property>

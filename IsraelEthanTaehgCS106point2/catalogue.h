@@ -20,6 +20,8 @@ private slots:
 
     void on_AccountButton_clicked();
 
+    void on_search_clicked();
+
 private:
     Ui::Catalogue *ui;
 };
