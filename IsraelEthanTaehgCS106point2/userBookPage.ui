@@ -50,7 +50,7 @@
          </spacer>
         </item>
         <item>
-         <widget class="QLabel" name="label">
+         <widget class="QLabel" name="iconHome">
           <property name="text">
            <string>IconH</string>
           </property>
