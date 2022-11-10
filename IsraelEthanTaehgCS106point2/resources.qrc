@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/csv">
+    <qresource prefix="/images">
         <file>Books/testing.csv</file>
     </qresource>
     <qresource prefix="/styles">

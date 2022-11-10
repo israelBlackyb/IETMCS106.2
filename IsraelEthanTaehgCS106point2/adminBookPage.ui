@@ -30,9 +30,10 @@
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-color: #50A6F4;</string>
+             <string notr="true">background-color: #50A6F4;
+</string>
             </property>
-            <widget class="QWidget" name="">
+            <widget class="QWidget" name="layoutWidget">
              <property name="geometry">
               <rect>
                <x>-20</x>
@@ -165,7 +166,7 @@
           <property name="styleSheet">
            <string notr="true">background-color: #fff;</string>
           </property>
-          <widget class="QWidget" name="">
+          <widget class="QWidget" name="layoutWidget">
            <property name="geometry">
             <rect>
              <x>10</x>
@@ -188,33 +189,6 @@
             </item>
             <item>
              <spacer name="verticalSpacer_3">
-              <property name="orientation">
-               <enum>Qt::Vertical</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Maximum</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>20</width>
-                <height>40</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_4">
-              <item>
-               <widget class="QLabel" name="label_6">
-                <property name="text">
-                 <string>Rating</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item>
-             <spacer name="verticalSpacer_4">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
               </property>
@@ -281,7 +255,7 @@
               <item>
                <widget class="QPushButton" name="summaryEditBtn">
                 <property name="styleSheet">
-                 <string notr="true">border-color: #000;</string>
+                 <string notr="true">border-width : 1.2px;</string>
                 </property>
                 <property name="text">
                  <string>PushButton</string>
@@ -299,6 +273,9 @@
                   <width>16777215</width>
                   <height>100</height>
                  </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
                 </property>
                </widget>
               </item>
@@ -341,6 +318,9 @@
                   <height>50</height>
                  </size>
                 </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
+                </property>
                </widget>
               </item>
              </layout>
@@ -379,8 +359,11 @@
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
-                  <height>30</height>
+                  <height>35</height>
                  </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
                 </property>
                </widget>
               </item>
@@ -423,6 +406,9 @@
                   <height>100</height>
                  </size>
                 </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
+                </property>
                </widget>
               </item>
              </layout>
@@ -463,6 +449,9 @@
                   <width>16777215</width>
                   <height>100</height>
                  </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
                 </property>
                </widget>
               </item>
@@ -505,6 +494,9 @@
                   <height>100</height>
                  </size>
                 </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
+                </property>
                </widget>
               </item>
              </layout>
@@ -546,6 +538,9 @@
                   <height>100</height>
                  </size>
                 </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
+                </property>
                </widget>
               </item>
              </layout>
@@ -586,6 +581,9 @@
                   <width>16777215</width>
                   <height>100</height>
                  </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-width : 0px;</string>
                 </property>
                </widget>
               </item>

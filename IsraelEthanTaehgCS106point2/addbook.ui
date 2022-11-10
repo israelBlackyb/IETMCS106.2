@@ -38,7 +38,8 @@
        <item>
         <widget class="QPushButton" name="homeButton">
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">border-width : 0px;
+</string>
          </property>
          <property name="text">
           <string>Home</string>
@@ -47,6 +48,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="addBookButton">
+         <property name="styleSheet">
+          <string notr="true">border-width : 0px;</string>
+         </property>
          <property name="text">
           <string>Add Book</string>
          </property>
@@ -54,6 +58,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="editBookButton">
+         <property name="styleSheet">
+          <string notr="true">border-width : 0px;</string>
+         </property>
          <property name="text">
           <string>Edit Book</string>
          </property>
@@ -61,6 +68,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="accountManagerButton">
+         <property name="styleSheet">
+          <string notr="true">border-width : 0px;</string>
+         </property>
          <property name="text">
           <string>Account Manager</string>
          </property>
@@ -69,7 +79,7 @@
        <item>
         <widget class="QPushButton" name="addUserButton">
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">border-width : 0px;</string>
          </property>
          <property name="text">
           <string>Add User</string>
@@ -296,6 +306,9 @@
        </item>
        <item>
         <widget class="QDialogButtonBox" name="buttonBox">
+         <property name="styleSheet">
+          <string notr="true">border-width : 0px;</string>
+         </property>
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
