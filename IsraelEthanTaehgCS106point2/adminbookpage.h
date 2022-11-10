@@ -22,6 +22,8 @@ private slots:
     void saveClicked();
     void cancelClicked();
 
+    void on_saveEditsBtn_clicked();
+
 private:
     Ui::AdminBookPage *ui;
     QDialog* editBox = new QDialog();
