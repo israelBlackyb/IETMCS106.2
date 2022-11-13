@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "adminbookpage.h"
 #include "loginpage.h"
+#include "catalogue.h"
 
 #include <QApplication>
 #include <QString>
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
     QString style(styleFile.readAll());
     a.setStyleSheet(style);
 
-    AdminBookPage w;
-    w.show();
+    Catalogue c;
+    c.show();
     return a.exec();
 }
