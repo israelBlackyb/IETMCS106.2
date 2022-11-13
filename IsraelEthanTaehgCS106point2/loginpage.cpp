@@ -53,6 +53,5 @@ void LoginPage::on_sign_clicked()
 
 void LoginPage::on_log_clicked()
 {
-    qDebug() << "Hit Log";
+    QLineEdit
 }
-

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>417</width>
-    <height>250</height>
+    <height>269</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -88,14 +88,14 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
-         <widget class="QPushButton" name="loginButton">
+         <widget class="QPushButton" name="log">
           <property name="text">
            <string>Login</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="signupButton">
+         <widget class="QPushButton" name="sign">
           <property name="text">
            <string>Sign Up</string>
           </property>
@@ -145,7 +145,7 @@
      <x>0</x>
      <y>0</y>
      <width>417</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
