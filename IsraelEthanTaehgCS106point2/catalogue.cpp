@@ -22,8 +22,8 @@ Catalogue::Catalogue(QWidget *parent) :
         books.push_back(new BookOption());
         QString mapDir = ""; //directory to image
         QPixmap map (mapDir);
-//        books.at(i)->setAuthor();
-//        books.at(i)->setTitle();
+       books.at(i)->setAuthor();
+      books.at(i)->setTitle();
         books.at(i)->setImage(map);
     }
     //Books = books read in file
