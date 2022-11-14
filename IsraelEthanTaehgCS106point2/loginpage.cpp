@@ -1,6 +1,7 @@
 #include "loginpage.h"
 #include "ui_loginpage.h"
 #include "filehandling.h"
+#include "catalogue.h"
 
 #include <QLineEdit>
 #include <QMessageBox>
@@ -51,8 +52,27 @@ void LoginPage::on_sign_clicked()
 }
 
 
-void LoginPage::on_log_clicked()
+//void LoginPage::on_log_clicked()
+//{
+
+//}
+
+// login button
+void LoginPage::on_loginButton_clicked()
 {
-    qDebug() << "Hit Log";
+    QString username = ui->userField->text();
+    QString password = ui->passField->text();
+
+    // checking to see if the username and password are correct
+    if(username == "test" && password == "test") {
+        //creating and displaying pop up of successful login
+        QMessageBox::information(this, "login", "Username & password is correct");
+        hide();
+        Catalogue = new class Catalogue(this);
+        Catalogue->show();
+    }
+    else {
+        QMessageBox::warning(this, "Login", "Username & password is not correct");
+    }
 }
 
