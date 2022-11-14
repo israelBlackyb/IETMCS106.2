@@ -6,6 +6,7 @@
 #include <QLineEdit>
 #include <QMessageBox>
 #include <QFile>
+#include <QTextStream>
 
 //add admin verfication
 
@@ -14,6 +15,8 @@ LoginPage::LoginPage(QWidget *parent) :
     ui(new Ui::LoginPage)
 {
     ui->setupUi(this);
+
+
 }
 
 LoginPage::~LoginPage()
@@ -73,16 +76,24 @@ void LoginPage::on_sign_clicked()
 // login button
 void LoginPage::on_loginButton_clicked()
 {
-    QFile file("logins.csv");
+    //-------
+    QFile file("LoginInformation");
 
-    if(!file.open(QFile::ReadOnly | QFile::Text)) {
+    if(fHand.CheckValidUser(userField->text(), "LoginInformation")){
         QMessageBox::warning(this, "title","file not open");
+        qCritical() << file.errorString();
     }
     QTextStream in(&file);
     QString text = in.readAll();
     ui->userField->setPlaceholderText(text);
-    file.flush();
+    ui->passField->setPlaceholderText(text);
+
+    qInfo() << "Reading file...";
+    file.seek(0);
+    qInfo() << file.readAll();
     file.close();
+
+    //------
 
     QString username = ui->userField->text();
     QString password = ui->passField->text();
@@ -96,7 +107,7 @@ void LoginPage::on_loginButton_clicked()
         Catalogue->show();
     }
     else {
-        QMessageBox::warning(this, "Login", "Username & password is not correct");
+        QMessageBox::warning(this, "Login", "Username or password is not correct");
     }
 }
 
