@@ -5,6 +5,7 @@
 
 #include <QLineEdit>
 #include <QMessageBox>
+#include <QFile>
 
 //add admin verfication
 
@@ -22,6 +23,18 @@ LoginPage::~LoginPage()
 
 void LoginPage::on_sign_clicked()
 {
+//    QFile file("logins.csv");
+
+//    if(!file.open(QFile::WriteOnly | QFile::Text)) {
+//        QMessageBox::warning(this, "title","file not open");
+//    }
+//    QTextStream out(&file);
+//    QString text = ui->userField->toPlainText();
+//    out << text;
+//    file.flush();
+//    file.close();
+
+
     QLineEdit* userField = ui->userField; //assgins the text in userfield to the variable of userField
     QLineEdit* passField = ui->passField; //same as above but ofr passfield
     QVector<QString> content; //init var
@@ -60,6 +73,17 @@ void LoginPage::on_sign_clicked()
 // login button
 void LoginPage::on_loginButton_clicked()
 {
+    QFile file("logins.csv");
+
+    if(!file.open(QFile::ReadOnly | QFile::Text)) {
+        QMessageBox::warning(this, "title","file not open");
+    }
+    QTextStream in(&file);
+    QString text = in.readAll();
+    ui->userField->setPlaceholderText(text);
+    file.flush();
+    file.close();
+
     QString username = ui->userField->text();
     QString password = ui->passField->text();
 
