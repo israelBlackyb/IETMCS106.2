@@ -20,10 +20,10 @@ Catalogue::Catalogue(QWidget *parent) :
 
     for(int i = 0; i < 10; i++){
         books.push_back(new BookOption());
-        QString mapDir = "/Books"; //directory to image
+        QString mapDir = ""; //directory to image
         QPixmap map (mapDir);
-       books.at(i)->setAuthor("Book");
-      books.at(i)->setTitle("Book");
+       //books.at(i)->setAuthor();
+      //books.at(i)->setTitle();
         books.at(i)->setImage(map);
     }
     //Books = books read in file
@@ -82,4 +82,9 @@ void Catalogue::on_AccountButton_clicked()
 }
 
 
+void Catalogue::on_search_clicked()
+{
+    ui->scrollAreaWidgetContents->setLayout(ui->horizontalLayout);
+    QString searchedText = ui->bookSearchBar->text();
+}
 
