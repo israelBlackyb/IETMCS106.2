@@ -5,6 +5,8 @@
 #include <QLineEdit>
 #include <QMessageBox>
 
+//add admin verfication
+
 LoginPage::LoginPage(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::LoginPage)

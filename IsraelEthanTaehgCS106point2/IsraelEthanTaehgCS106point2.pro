@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     addbook.cpp \
     adminbookpage.cpp \
+    bookoption.cpp \
     filehandling.cpp \
     loginpage.cpp \
     catalogue.cpp \
@@ -21,6 +22,7 @@ SOURCES += \
 HEADERS += \
     addbook.h \
     adminbookpage.h \
+    bookoption.h \
     filehandling.h \
     loginpage.h \
     userbookpage.h \
