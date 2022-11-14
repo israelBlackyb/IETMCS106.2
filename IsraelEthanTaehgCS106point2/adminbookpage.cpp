@@ -40,7 +40,7 @@ AdminBookPage::~AdminBookPage()
     delete ui;
 }
 
-void AdminBookPage::on_EditBtn_clicked()
+void AdminBookPage::on_summaryEditBtn_clicked()
 {
     //Perform a switch case on the return of editBox(Dialog).exec()
     //Returns one if accept is called

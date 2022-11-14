@@ -2,30 +2,53 @@
 #include "ui_catalogue.h"
 #include "mainwindow.h"
 #include "loginpage.h"
+#include "bookoption.h"
 
-using std::string;
+#include <QVector>
+#include <QSpacerItem>
 
-class book {
 
-private:
-    string title;
-    string author;
-    string summary;
-    string subject;
-    string contents;
-    string notes;
-    string description;
-    string publisher;
-    string edition;
-    string callNumber;
-
-};
 
 Catalogue::Catalogue(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Catalogue)
 {
     ui->setupUi(this);
+
+
+    QVector<BookOption*> books;
+
+    for(int i = 0; i < 10; i++){
+        books.push_back(new BookOption());
+        QString mapDir = "/Books"; //directory to image
+        QPixmap map (mapDir);
+       books.at(i)->setAuthor("Book");
+      books.at(i)->setTitle("Book");
+        books.at(i)->setImage(map);
+    }
+    //Books = books read in file
+
+
+
+    int numRows = ceil(books.size()/4);
+
+    QGridLayout* grid = ui->gridLayout;
+    QSpacerItem* item = new QSpacerItem(30, 20, QSizePolicy::Maximum);
+
+
+    //For every row in numRows = ceiling(books/4)
+    for(int i = 0; i < numRows; i++){
+        for(int j = 0; j < 4; j++){
+
+            if(j % 2 == 0){
+                grid->addItem(item, i, j);
+            }
+            else{
+                grid->addWidget(books.at(i), i, j);
+            }
+        }
+    }
+
 }
 
 Catalogue::~Catalogue()
@@ -36,11 +59,18 @@ Catalogue::~Catalogue()
 void Catalogue::on_homeButton_clicked()
 {
     MainWindow *mw;
-
-    hide();
     mw = new MainWindow(this);
     mw->show();
+    hide();
+
 }
+
+
+
+//Read csv
+//Populate button with title
+//Populate button with image
+//Populate under with title of book/Author
 
 
 void Catalogue::on_AccountButton_clicked()
@@ -50,7 +80,6 @@ void Catalogue::on_AccountButton_clicked()
     lp = new LoginPage(this);
     lp->show();
 }
-
 
 
 
