@@ -64,3 +64,26 @@ void AdminBookPage::cancelClicked(){
 
 }
 
+//Read the editable parts of the book page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

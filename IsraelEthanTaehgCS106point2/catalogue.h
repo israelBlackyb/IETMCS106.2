@@ -22,6 +22,8 @@ private slots:
 
     void on_search_clicked();
 
+    void on_bookButton_1_clicked();
+
 private:
     Ui::Catalogue *ui;
 };

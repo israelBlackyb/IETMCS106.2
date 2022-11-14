@@ -3,6 +3,24 @@
 #include "mainwindow.h"
 #include "loginpage.h"
 
+using std::string;
+
+class book {
+
+private:
+    string title;
+    string author;
+    string summary;
+    string subject;
+    string contents;
+    string notes;
+    string description;
+    string publisher;
+    string edition;
+    string callNumber;
+
+};
+
 Catalogue::Catalogue(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Catalogue)
@@ -34,9 +52,5 @@ void Catalogue::on_AccountButton_clicked()
 }
 
 
-void Catalogue::on_search_clicked()
-{
-    ui->scrollContents->setLayout(ui->horizontalLayout);
-    QString searchedText = ui->lineEdit_bookSearchText->text();
-}
+
 
