@@ -56,6 +56,21 @@ Catalogue::~Catalogue()
     delete ui;
 }
 
+
+//Read csv
+//Populate button with title
+//Populate button with image
+//Populate under with title of book/Author
+
+//Nav btns
+void Catalogue::on_AccountButton_clicked()
+{
+    LoginPage *lp;
+    hide();
+    lp = new LoginPage(this);
+    lp->show();
+}
+
 void Catalogue::on_homeButton_clicked()
 {
     MainWindow *mw;
@@ -65,26 +80,180 @@ void Catalogue::on_homeButton_clicked()
 
 }
 
-
-
-//Read csv
-//Populate button with title
-//Populate button with image
-//Populate under with title of book/Author
-
-
-void Catalogue::on_AccountButton_clicked()
+void Catalogue::on_genresButton_clicked()
 {
-    LoginPage *lp;
-    hide();
-    lp = new LoginPage(this);
-    lp->show();
+
 }
 
+
+
+
+void Catalogue::on_popularButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_reservesButton_clicked()
+{
+
+}
+//on page btns
 
 void Catalogue::on_search_clicked()
 {
     ui->scrollAreaWidgetContents->setLayout(ui->horizontalLayout);
     QString searchedText = ui->bookSearchBar->text();
+}
+
+
+void Catalogue::on_filtersToolButton_triggered(QAction *arg1)
+{
+
+}
+
+
+void Catalogue::on_checkoutButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_fictionButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_nonfictionButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_actionButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_comadyButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_dramaButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_romanceButton_clicked()
+{
+
+}
+
+
+void Catalogue::on_mysteryButton_clicked()
+{
+
+}
+    //Book slots
+
+
+void Catalogue::on_bookButton_1_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_2_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_3_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_4_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_5_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_6_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_7_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_8_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_9_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_10_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_11_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_12_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_13_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_14_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_15_clicked()
+{
+
+}
+
+
+void Catalogue::on_bookButton_16_clicked()
+{
+
 }
 
