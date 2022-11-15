@@ -20,6 +20,16 @@ public:
     explicit LoginPage(QWidget *parent = nullptr);
     ~LoginPage();
 
+    // ** getter for QString loggedInUserName;
+    QString getloggedInUserName(){
+        return loggedInUserName;
+    }
+
+    // ** getter for int loggedInUserID;
+    int getloggedInUserID(){
+        return loggedInUserID;
+    }
+
 private slots:
     void on_loginButton_clicked();
     void on_signupButton_clicked();

@@ -95,10 +95,6 @@ void LoginPage::on_signupButton_clicked()
 }
 
 
-//void LoginPage::on_log_clicked()
-//{
-
-//}
 
 // login button
 void LoginPage::on_loginButton_clicked()
@@ -142,7 +138,8 @@ void LoginPage::on_loginButton_clicked()
 //    else {
 //        QMessageBox::warning(this, "Login", "Username or password is not correct");
 //    }
-
+    QString username = ui->userField->text();
+    QString password = ui->passField->text();
 
     QVector<QVector<QString>> fileContent = fHand.ReadFile("accountInformation", 3);
 

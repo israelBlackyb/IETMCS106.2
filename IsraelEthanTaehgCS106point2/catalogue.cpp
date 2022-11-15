@@ -16,6 +16,7 @@ Catalogue::Catalogue(QWidget *parent) :
     ui->setupUi(this);
 
 
+
     QVector<BookOption*> books;
 
     for(int i = 0; i < 10; i++){
