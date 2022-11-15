@@ -82,4 +82,9 @@ void Catalogue::on_AccountButton_clicked()
 }
 
 
+void Catalogue::on_search_clicked()
+{
+    ui->scrollAreaWidgetContents->setLayout(ui->horizontalLayout);
+    QString searchedText = ui->bookSearchBar->text();
+}
 

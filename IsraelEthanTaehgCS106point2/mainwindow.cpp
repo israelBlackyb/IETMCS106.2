@@ -3,6 +3,8 @@
 #include "loginpage.h"
 #include "catalogue.h"
 
+#include <QPixmap>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)

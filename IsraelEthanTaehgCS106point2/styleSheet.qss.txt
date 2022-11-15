@@ -2,7 +2,7 @@
 QWidget
 {
         background-color: #B4CCE4;
-        color: red;
+        color: black;    /*colour of text*/
         border-color: #fff;
 
 }
@@ -18,6 +18,22 @@ QLabel
 
 }
 
+/*----QEdits---*/
+QLineEdit
+{
+        border-color: #000;
+        border-width : 1.2px;
+        border-style:inset;
+}
+
+QTextEdit
+{
+
+        border-color: #000;
+        border-width : 1.2px;
+        border-style:inset;
+
+}
 
 /*-----QPushButton-----*/
 QPushButton
@@ -31,6 +47,7 @@ QPushButton
         border-bottom-right-radius: 9px;
         border-bottom-left-radius: 9px;
         padding: 10px;
+
 
 }
 
@@ -107,7 +124,7 @@ QCheckBox::indicator:disabled
 {
         background-color: #656565;
         color: #656565;
-    border: 1px solid #656565;
+        border: 1px solid #656565;
 
 }
 
@@ -115,11 +132,24 @@ QCheckBox::indicator:disabled
 /*-----QLineEdit-----*/
 QLineEdit
 {
-        background-color: #c2c7d5;
+        background-color: #fff;
         color: #2a547f;
-        border: none;
+        border-top-right-radius: 9px;
+        border-top-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        border-bottom-left-radius: 9px;
         padding: 5px;
 
+}
+
+QTextEdit
+{
+        background-color: #fff;
+        border-top-right-radius: 9px;
+        border-top-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        border-bottom-left-radius: 9px;
+        padding: 5px;
 }
 
 
