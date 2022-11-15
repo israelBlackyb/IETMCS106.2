@@ -19,7 +19,7 @@ MainWindow::~MainWindow()
 
 
 
-
+//nav btns
 void MainWindow::on_loginReg_clicked()
 {
    LoginPage *lp;
@@ -49,6 +49,18 @@ void MainWindow::on_genres_clicked()
     hide();
     ct = new Catalogue(this);
     ct->show();
+
+}
+
+
+void MainWindow::on_popularButton_clicked()
+{
+
+}
+
+
+void MainWindow::on_reservesButton_clicked()
+{
 
 }
 

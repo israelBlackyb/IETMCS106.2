@@ -19,6 +19,18 @@ private slots:
 
     void on_homeBtn_clicked();
 
+    void on_userGenreBtn_clicked();
+
+    void on_userPopBtn_clicked();
+
+    void on_userResBtn_clicked();
+
+    void on_userLogRegBtn_clicked();
+
+    void on_userCheckBtn_clicked();
+
+    void on_userAddListBtn_clicked();
+
 private:
     Ui::userbookpage *ui;
 };
