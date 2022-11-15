@@ -21,19 +21,15 @@ public:
     ~LoginPage();
 
 private slots:
-    void on_sign_clicked();
-    void on_log_clicked();
-
     void on_loginButton_clicked();
-
     void on_signupButton_clicked();
 
 private:
     Ui::LoginPage *ui;
     bool signedIn=false;
     void OpenWindow();
-     FileHandling fHand;
-     Catalogue *Catalogue;
+    FileHandling fHand;
+    Catalogue *Catalogue;
 };
 
 #endif // LOGINPAGE_H

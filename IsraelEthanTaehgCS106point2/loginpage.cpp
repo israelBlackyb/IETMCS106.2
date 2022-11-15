@@ -1,4 +1,5 @@
 #include "loginpage.h"
+#include "adminbookpage.h"
 #include "ui_loginpage.h"
 #include "filehandling.h"
 #include "catalogue.h"
@@ -38,32 +39,58 @@ void LoginPage::on_signupButton_clicked()
     //    file.close();
 
 
-        QLineEdit* userField = ui->userField; //assgins the text in userfield to the variable of userField
-        QLineEdit* passField = ui->passField; //same as above but ofr passfield
-        QVector<QString> content; //init var
+//        QLineEdit* userField = ui->userField; //assgins the text in userfield to the variable of userField
+//        QLineEdit* passField = ui->passField; //same as above but ofr passfield
+//        QVector<QString> content; //init var
 
-        content.append(userField->text());
-        content.append(passField->text());
-        content.append("1");
+//        content.append(userField->text());
+//        content.append(passField->text());
+//        content.append("1");
 
-        if(fHand.CheckValidUser(userField->text(), "B:/school/QT/IETMCS106.2/IsraelEthanTaehgCS106point2LoginInformation")){ //
+//        if(fHand.CheckValidUser(userField->text(), "LoginInformation")){
+//            fHand.WriteFile("LoginInformation", content);
+//            QMessageBox box(this);
+//            box.setIcon(QMessageBox::Information);
+//            box.setText("You have successfully signed up");
+//            box.setWindowTitle("Sign up");
+//            box.setStandardButtons(QMessageBox::Ok);
+//            int returnVal=box.exec();
+//            switch (returnVal) {
+//            case QMessageBox::Ok:
+//                //OpenWindow();
+//                break;
+//            default:
+//                break;
+//            }
+//        }
+//        else {
+//            QMessageBox::warning(this, "sign up", "User with this name already exists");
+//        }
+
+        QString username = ui->userField->text();
+        QString password = ui->passField->text();
+
+        QVector<QString> content;
+        content.append(username);
+        content.append(password);
+        content.append("1"); //1 for access level 1
+
+        if(fHand.CheckValidUser(username, "LoginInformation")){
             fHand.WriteFile("LoginInformation", content);
+
             QMessageBox box(this);
             box.setIcon(QMessageBox::Information);
-            box.setText("You have successfully signed up");
-            box.setWindowTitle("Sign up");
+            box.setText("Congratulations, you have signed up successfully");
+            box.setWindowTitle("Sign-up");
             box.setStandardButtons(QMessageBox::Ok);
-            int returnVal=box.exec();
-            switch (returnVal) {
-            case QMessageBox::Ok:
-                //OpenWindow();
-                break;
-            default:
-                break;
-            }
-        }
-        else {
-            QMessageBox::warning(this, "sign up", "User with this name already exists");
+            box.exec();
+        } else {
+            QMessageBox box(this);
+            box.setIcon(QMessageBox::Warning);
+            box.setText("Unfortunatley that username has been taken");
+            box.setWindowTitle("Sign-up failed");
+            box.setStandardButtons(QMessageBox::Ok);
+            box.exec();
         }
 }
 
@@ -76,6 +103,8 @@ void LoginPage::on_signupButton_clicked()
 // login button
 void LoginPage::on_loginButton_clicked()
 {
+    QFile file("LoginInformation");
+
     QLineEdit* userField = ui->userField; //assgins the text in userfield to the variable of userField
     QLineEdit* passField = ui->passField; //same as above but ofr passfield
     QVector<QString> content; //init var
@@ -85,9 +114,9 @@ void LoginPage::on_loginButton_clicked()
     content.append("1");
 
     //-------
-    QFile file("LoginInformation");
 
-    if(!file.open(QIODevice::ReadOnly)){
+
+    if(!file.open(QFile::ReadOnly | QFile::Text)){
         QMessageBox::warning(this, "title","file not open");
         qCritical() << file.errorString();
     }
@@ -95,9 +124,6 @@ void LoginPage::on_loginButton_clicked()
     QString text = in.readAll();
     ui->userField->setPlaceholderText(text);
     ui->passField->setPlaceholderText(text);
-
-
-
     //------
 
 //    QString username = ui->userField->text();
@@ -105,17 +131,52 @@ void LoginPage::on_loginButton_clicked()
 
 
 
-    if(fHand.CheckValidUser(userField->text(), "LoginInformation")) {
-        fHand.ReadFile("LoginInformation", 1);
-        //creating and displaying pop up of successful login
-        QMessageBox::information(this, "login", "Username & password is correct");
-        hide();
-        Catalogue = new class Catalogue(this);
-        Catalogue->show();
-    }
-    else {
-        QMessageBox::warning(this, "Login", "Username or password is not correct");
-    }
+//    if(fHand.CheckValidUser(userField->text(), "LoginInformation")) {
+//        fHand.ReadFile("LoginInformation", 1);
+//        //creating and displaying pop up of successful login
+//        QMessageBox::information(this, "login", "Username & password is correct");
+//        hide();
+//        Catalogue = new class Catalogue(this);
+//        Catalogue->show();
+//    }
+//    else {
+//        QMessageBox::warning(this, "Login", "Username or password is not correct");
+//    }
+
+
+    QVector<QVector<QString>> fileContent = fHand.ReadFile("accountInformation", 3);
+
+
+        for(int i = 0; i < fileContent.size(); i++){
+                if (username == fileContent.at(i).at(0)){
+                    if(password == fileContent.at(i).at(1)){
+                       QMessageBox::information(this, "Login", "Username and Password is correct");
+
+
+                       //stores username & id as variables if sucessful
+                       //availible through methodsgetloggedInUserName() + getloggedInUserID() from class
+                       loggedInUserName = fileContent.at(i).at(0);
+                       if (loggedInUserName == ""){
+                               loggedInUserName = "default";
+                    }
+                          loggedInUserID = i;
+
+                       //then closes main window and opens up sucessful login window
+                       hide();
+                       suclogin = new sucLogin(this);
+                       suclogin->show();
+                       signedIn = true;
+                    } else{
+                        QMessageBox::warning(this, "Login", "Username and Password is not correct");
+                    }
+                } else{
+                    continue; //to skip duplicate messages
+                }
+            }
+            if(!signedIn){
+                QMessageBox::warning(this, "Login", "No user found");
+            }
+        }
 }
 
 

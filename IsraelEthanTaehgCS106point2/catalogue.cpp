@@ -88,3 +88,22 @@ void Catalogue::on_search_clicked()
     QString searchedText = ui->bookSearchBar->text();
 }
 
+//---------login attempt stuff---------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
