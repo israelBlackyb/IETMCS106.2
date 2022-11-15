@@ -163,10 +163,19 @@ void LoginPage::on_loginButton_clicked()
                        Catalogue = new class Catalogue(this);
                        Catalogue->show();
                        signedIn = true;
-                    } else{
+                    }
+                    else if(username == "admin" && password == "admin"){
+                        QMessageBox::information(this, "Admin Login", "Thank you for logging in admin, this sections still needs to be implemented");
+                        hide();
+            //            adminlogin = new adminLogin(this);
+            //            adminlogin->show();
+                        signedIn = true;
+                    }
+                    else{
                         QMessageBox::warning(this, "Login", "Username and Password is not correct");
                     }
-                } else{
+                }
+                else{
                     continue; //to skip duplicate messages
                 }
             }
