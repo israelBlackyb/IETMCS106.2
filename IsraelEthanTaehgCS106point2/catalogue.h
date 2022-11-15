@@ -78,6 +78,8 @@ private slots:
 
     void on_bookButton_16_clicked();
 
+    void on_bookLabel_1_windowIconTextChanged(const QString &iconText);
+
 private:
     Ui::Catalogue *ui;
 };

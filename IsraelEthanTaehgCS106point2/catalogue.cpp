@@ -6,7 +6,10 @@
 
 #include <QVector>
 #include <QSpacerItem>
-
+#include <QFile>
+#include <QTextStream>
+#include <QLineEdit>
+#include <QMessageBox>
 
 
 Catalogue::Catalogue(QWidget *parent) :
@@ -59,10 +62,7 @@ Catalogue::~Catalogue()
 }
 
 
-//Read csv
-//Populate button with title
-//Populate button with image
-//Populate under with title of book/Author
+
 
 //Nav btns
 void Catalogue::on_AccountButton_clicked()
@@ -162,9 +162,8 @@ void Catalogue::on_mysteryButton_clicked()
 {
 
 }
-    //Book slots
 
-
+    //Book btn slots
 void Catalogue::on_bookButton_1_clicked()
 {
 
@@ -259,4 +258,10 @@ void Catalogue::on_bookButton_16_clicked()
 {
 
 }
+    //Book btn image slots
+//read the catalogue.csv
+// read column A/x  and iterate through it
+//
+
+
 
