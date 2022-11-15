@@ -25,6 +25,10 @@ private slots:
 
     void on_genres_clicked();
 
+    void on_popularButton_clicked();
+
+    void on_reservesButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 
