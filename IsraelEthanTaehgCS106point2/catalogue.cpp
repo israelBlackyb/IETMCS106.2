@@ -16,6 +16,7 @@ Catalogue::Catalogue(QWidget *parent) :
     ui->setupUi(this);
 
 
+
     QVector<BookOption*> books;
 
     //displays title, author and book to its place
@@ -88,4 +89,23 @@ void Catalogue::on_search_clicked()
     ui->scrollAreaWidgetContents->setLayout(ui->horizontalLayout);
     QString searchedText = ui->bookSearchBar->text();
 }
+
+//---------login attempt stuff---------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
