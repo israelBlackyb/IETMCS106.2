@@ -2,6 +2,7 @@
 #define LOGINPAGE_H
 
 #include "filehandling.h"
+#include "catalogue.h"
 
 #include <QVector>
 #include <QMainWindow>
@@ -23,11 +24,14 @@ private slots:
     void on_sign_clicked();
     void on_log_clicked();
 
+    void on_loginButton_clicked();
+
 private:
     Ui::LoginPage *ui;
     bool signedIn=false;
     void OpenWindow();
      FileHandling fHand;
+     Catalogue *Catalogue;
 };
 
 #endif // LOGINPAGE_H

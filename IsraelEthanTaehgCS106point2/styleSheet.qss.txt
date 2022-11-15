@@ -51,7 +51,6 @@ QPushButton
 
 }
 
-
 QPushButton::disabled
 {
         background-color: #5c5c5c;

@@ -64,60 +64,26 @@ void AdminBookPage::cancelClicked(){
 
 }
 
-//Title read
+//Read the editable parts of the book page
 
 
-//Author read
 
 
-//Summary read
 
 
-//Subject read
 
 
-//Description read
 
 
-//Publisher read
 
 
-//Call_number read
 
 
-//Content read
 
 
-//Edition read
 
 
-void AdminBookPage::on_saveEditsBtn_clicked()
-{
-    //Title edit
 
 
-    //Author edit
 
-
-    //Summary edit
-
-
-    //Subject edit
-
-
-    //Description edit
-
-
-    //Publisher edit
-
-
-    //Call_number edit
-
-
-    //Content edit
-
-
-    //Edition edit
-
-}
 

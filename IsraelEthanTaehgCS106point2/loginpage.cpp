@@ -1,9 +1,11 @@
 #include "loginpage.h"
 #include "ui_loginpage.h"
 #include "filehandling.h"
+#include "catalogue.h"
 
 #include <QLineEdit>
 #include <QMessageBox>
+#include <QFile>
 
 //add admin verfication
 
@@ -21,6 +23,18 @@ LoginPage::~LoginPage()
 
 void LoginPage::on_sign_clicked()
 {
+//    QFile file("logins.csv");
+
+//    if(!file.open(QFile::WriteOnly | QFile::Text)) {
+//        QMessageBox::warning(this, "title","file not open");
+//    }
+//    QTextStream out(&file);
+//    QString text = ui->userField->toPlainText();
+//    out << text;
+//    file.flush();
+//    file.close();
+
+
     QLineEdit* userField = ui->userField; //assgins the text in userfield to the variable of userField
     QLineEdit* passField = ui->passField; //same as above but ofr passfield
     QVector<QString> content; //init var
@@ -51,8 +65,38 @@ void LoginPage::on_sign_clicked()
 }
 
 
-void LoginPage::on_log_clicked()
+//void LoginPage::on_log_clicked()
+//{
+
+//}
+
+// login button
+void LoginPage::on_loginButton_clicked()
 {
-    qDebug() << "Hit Log";
+    QFile file("LoginInformation.csv");
+
+    if(!file.open(QFile::ReadOnly | QFile::Text)) {
+        QMessageBox::warning(this, "title","file not open");
+    }
+    QTextStream in(&file);
+    QString text = in.readAll();
+    ui->userField->setPlaceholderText(text);
+    file.flush();
+    file.close();
+
+    QString username = ui->userField->text();
+    QString password = ui->passField->text();
+
+    // checking to see if the username and password are correct
+    if(username == "test" && password == "test") {
+        //creating and displaying pop up of successful login
+        QMessageBox::information(this, "login", "Username & password is correct");
+        hide();
+        Catalogue = new class Catalogue(this);
+        Catalogue->show();
+    }
+    else {
+        QMessageBox::warning(this, "Login", "Username & password is not correct");
+    }
 }
 
