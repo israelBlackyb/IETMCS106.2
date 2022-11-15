@@ -18,12 +18,13 @@ Catalogue::Catalogue(QWidget *parent) :
 
     QVector<BookOption*> books;
 
+    //displays title, author and book to its place
     for(int i = 0; i < 10; i++){
         books.push_back(new BookOption());
-        QString mapDir = ""; //directory to image
+        QString mapDir = "";
         QPixmap map (mapDir);
-       //books.at(i)->setAuthor();
-      //books.at(i)->setTitle();
+       books.at(i)->setAuthor("Poo");
+      books.at(i)->setTitle("Pee");
         books.at(i)->setImage(map);
     }
     //Books = books read in file

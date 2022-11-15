@@ -73,7 +73,7 @@ void LoginPage::on_sign_clicked()
 // login button
 void LoginPage::on_loginButton_clicked()
 {
-    QFile file("logins.csv");
+    QFile file("LoginInformation.csv");
 
     if(!file.open(QFile::ReadOnly | QFile::Text)) {
         QMessageBox::warning(this, "title","file not open");
