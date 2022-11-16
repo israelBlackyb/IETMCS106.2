@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1175</width>
-    <height>751</height>
+    <height>800</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -808,7 +808,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book13</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -905,7 +911,17 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book2</string>
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b2.PNG</normaloff>Images/Bookcovers_noTitle/b2.PNG</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -928,7 +944,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book10</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -957,7 +979,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book12</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1112,7 +1140,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book15</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1183,7 +1217,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book5</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1244,7 +1284,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book9</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1257,7 +1303,17 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book4</string>
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/4.PNG</normaloff>Images/Bookcovers_noTitle/4.PNG</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1286,7 +1342,17 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book1</string>
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/HPCC.PNG</normaloff>Images/Bookcovers_noTitle/HPCC.PNG</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1309,7 +1375,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book7</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1332,7 +1404,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book11</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1361,7 +1439,17 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book3</string>
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b3.PNG</normaloff>Images/Bookcovers_noTitle/b3.PNG</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1446,7 +1534,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book6</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1475,7 +1569,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book8</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1562,7 +1662,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book16</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>
@@ -1575,7 +1681,13 @@ color: #000;</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Book14</string>
+                 <string/>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>234</width>
+                  <height>234</height>
+                 </size>
                 </property>
                </widget>
               </item>

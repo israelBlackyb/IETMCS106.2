@@ -465,7 +465,7 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
-                <height>200</height>
+                <height>150</height>
                </size>
               </property>
               <property name="maximumSize">
@@ -475,7 +475,13 @@
                </size>
               </property>
               <property name="text">
-               <string>Book1</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/HPCC.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -503,11 +509,23 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
                 <height>200</height>
                </size>
               </property>
               <property name="text">
-               <string>Book2</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/b8.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -535,11 +553,23 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
                 <height>200</height>
                </size>
               </property>
               <property name="text">
-               <string>Book3</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/4.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -567,11 +597,23 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
                 <height>200</height>
                </size>
               </property>
               <property name="text">
-               <string>book4</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/b7.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -599,11 +641,23 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
                 <height>200</height>
                </size>
               </property>
               <property name="text">
-               <string>Book5</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/b2.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -631,11 +685,23 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
                 <height>200</height>
                </size>
               </property>
               <property name="text">
-               <string>Book6</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/b10.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -663,11 +729,23 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
                 <height>200</height>
                </size>
               </property>
               <property name="text">
-               <string>Book7</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/b3.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -695,11 +773,23 @@
               <property name="minimumSize">
                <size>
                 <width>150</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
                 <height>200</height>
                </size>
               </property>
               <property name="text">
-               <string>Book8</string>
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>Images/Bookcovers_noTitle/b11.PNG</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
