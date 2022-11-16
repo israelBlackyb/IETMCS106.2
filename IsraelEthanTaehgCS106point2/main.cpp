@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     QString style(styleFile.readAll());
     a.setStyleSheet(style);
 
-    MainWindow w;
+    AddBook w;
     w.show();
     return a.exec();
 }

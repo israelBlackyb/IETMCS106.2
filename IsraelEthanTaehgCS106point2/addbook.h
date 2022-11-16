@@ -26,10 +26,6 @@ private slots:
 
     void on_editBook_clicked();
 
-    void on_accountManager_clicked();
-
-    void on_addUser_clicked();
-
     void on_addBookBtn_clicked();
 
 private:
