@@ -7,11 +7,11 @@
 #include <QLabel>
 #include <QBoxLayout>
 #include <QVector>
-
 #include <QFile>
 #include <QTextStream>
 #include <QDebug>
 #include <QTextBrowser>
+#include <QMessageBox>
 
 QVector<QLabel*> bookCoversList;
 QVector<QTextBrowser*> bookInformation;
@@ -77,14 +77,51 @@ void AddBook::on_editBook_clicked()
 }
 
 
-//void AddBook::on_accountManager_clicked()
-//{
 
-//}
+void AddBook::on_addBookBtn_clicked()
+{
+    QFile file("Books");
+    QString title = ui->titleLineEdit->text();
+    QString author = ui->authorLineEdit->text();
+    QString subjects = ui->subjectsTextEdit->toPlainText();
+    QString isbnNumber = ui->ISBNnumberLineEdit->text();
+    QString summery = ui->summeryTextEdit->toPlainText();
+    QString contents = ui->contentsTextEdit->toPlainText();
+    QString notes = ui->notesTextEdit->toPlainText();
+    QString publisher = ui->publisherTextEdit->toPlainText();
+    QString description = ui->descriptionTextEdit->toPlainText();
+    QString edition = ui->editionTextEdit->toPlainText();
 
+    QVector<QString> content;
+    content.append(title);
+    content.append(author);
+    content.append(subjects);
+    content.append(isbnNumber);
+    content.append(summery);
+    content.append(contents);
+    content.append(notes);
+    content.append(publisher);
+    content.append(description);
+    content.append(edition);
+    content.append("1"); //1 for access level 1
 
-//void AddBook::on_addUser_clicked()
-//{
+    if(fHand.CheckValidUser(title, "Books")){
+        fHand.WriteFile("Books", content);
 
-//}
+        QMessageBox box(this);
+        box.setIcon(QMessageBox::Information);
+        box.setText("Congratulations, you have signed up successfully");
+        box.setWindowTitle("Sign-up");
+        box.setStandardButtons(QMessageBox::Ok);
+        box.exec();
+    } else {
+        QMessageBox box(this);
+        box.setIcon(QMessageBox::Warning);
+        box.setText("Unfortunatley that username has been taken");
+        box.setWindowTitle("Sign-up failed");
+        box.setStandardButtons(QMessageBox::Ok);
+        box.exec();
+    }
+    file.close();
+}
 

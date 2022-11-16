@@ -93,6 +93,7 @@ void LoginPage::on_signupButton_clicked()
             box.setStandardButtons(QMessageBox::Ok);
             box.exec();
         }
+        file.close();
 }
 
 
@@ -145,6 +146,14 @@ void LoginPage::on_loginButton_clicked()
 
     QVector<QVector<QString>> fileContent = fHand.ReadFile("LoginInformation", 100);
 
+    if(username == "admin" && password == "admin"){
+        QMessageBox::information(this, "Admin Login", "You have logged in as an Admin");
+        hide();
+        AdminBookPage *ap;
+        ap = new AdminBookPage(this);
+        ap->show();
+        signedIn = true;
+    }
 
         for(int i = 0; i < fileContent.size(); i++){
                 if (username == fileContent.at(i).at(0)){
@@ -163,10 +172,13 @@ void LoginPage::on_loginButton_clicked()
                        Catalogue = new class Catalogue(this);
                        Catalogue->show();
                        signedIn = true;
-                    } else{
+                    }
+
+                    else{
                         QMessageBox::warning(this, "Login", "Username and Password is not correct");
                     }
-                } else{
+                }
+                else{
                     continue; //to skip duplicate messages
                 }
             }
@@ -174,6 +186,8 @@ void LoginPage::on_loginButton_clicked()
                 QMessageBox::warning(this, "Login", "No user found");
             }
         }
+
+
 
 
 
