@@ -83,8 +83,8 @@ QVector<QVector<QString>> FileHandling::ReadFile(QString fileName, int numCols) 
 
         QString str = stream.readLine(); //str is defined by everything in the file
         rows.append(str.split(",")); //breaks each row into indiv string
-         for(int i=0; i< 3;i++){ //loop 3 times
-           if(i == 2) {
+         for(int i=0; i< numCols;i++){ //loop 3 times
+           if(i == numCols-1) {
                 qDebug("Reach it 3");
                 columns.append(rows); //adds an additional row to the vector
                 rows.clear();

@@ -26,90 +26,219 @@
             <property name="maximumSize">
              <size>
               <width>150</width>
-              <height>400</height>
+              <height>600</height>
              </size>
             </property>
             <property name="styleSheet">
              <string notr="true">background-color: #50A6F4;
 </string>
             </property>
-            <widget class="QWidget" name="layoutWidget">
+            <widget class="QWidget" name="horizontalLayoutWidget">
              <property name="geometry">
               <rect>
-               <x>-20</x>
-               <y>10</y>
-               <width>172</width>
-               <height>251</height>
+               <x>10</x>
+               <y>0</y>
+               <width>131</width>
+               <height>591</height>
               </rect>
              </property>
-             <layout class="QVBoxLayout" name="adminNav">
+             <layout class="QHBoxLayout" name="Nav_fitter">
               <item>
-               <widget class="QLabel" name="label">
-                <property name="text">
-                 <string>IconC</string>
+               <spacer name="horizontalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
                 </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
                 </property>
-               </widget>
+               </spacer>
               </item>
               <item>
-               <widget class="QPushButton" name="adminChargeBtn">
-                <property name="text">
-                 <string>Charge</string>
-                </property>
-               </widget>
+               <layout class="QVBoxLayout" name="adminNav">
+                <item>
+                 <widget class="QLabel" name="label">
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>75</height>
+                   </size>
+                  </property>
+                  <property name="layoutDirection">
+                   <enum>Qt::LeftToRight</enum>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>Icons/book-row.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="adminChargeBtn">
+                  <property name="text">
+                   <string>Charge</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Minimum</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>75</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>Icons/book.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="adminRetBtn">
+                  <property name="text">
+                   <string>Return</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Minimum</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>75</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>Icons/book-open.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="adminRenBtn">
+                  <property name="text">
+                   <string>Renew</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_4">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Minimum</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>75</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>Icons/books-stack-small.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="adminHoldBtn">
+                  <property name="text">
+                   <string>Holds</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </item>
               <item>
-               <widget class="QLabel" name="label_2">
-                <property name="text">
-                 <string>IconRet</string>
+               <spacer name="horizontalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
                 </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
                 </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="adminRetBtn">
-                <property name="text">
-                 <string>Return</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_3">
-                <property name="text">
-                 <string>IconRen</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="adminRenBtn">
-                <property name="text">
-                 <string>Renew</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_4">
-                <property name="text">
-                 <string>IconH</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="adminHoldBtn">
-                <property name="text">
-                 <string>Holds</string>
-                </property>
-               </widget>
+               </spacer>
               </item>
              </layout>
             </widget>
@@ -126,7 +255,7 @@
             <property name="sizeHint" stdset="0">
              <size>
               <width>20</width>
-              <height>1040</height>
+              <height>800</height>
              </size>
             </property>
            </spacer>
@@ -249,16 +378,6 @@
                <widget class="QLabel" name="label_7">
                 <property name="text">
                  <string>Summary</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="summaryEditBtn">
-                <property name="styleSheet">
-                 <string notr="true">border-width : 1.2px;</string>
-                </property>
-                <property name="text">
-                 <string>PushButton</string>
                 </property>
                </widget>
               </item>
@@ -668,7 +787,7 @@
      <x>0</x>
      <y>0</y>
      <width>951</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

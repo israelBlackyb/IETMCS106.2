@@ -26,17 +26,17 @@
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>40</height>
+        <height>55</height>
        </size>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: #50A6F4;</string>
       </property>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>0</y>
+         <y>10</y>
          <width>782</width>
          <height>36</height>
         </rect>
@@ -68,12 +68,18 @@
          <widget class="QLabel" name="IconH">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconH</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/home.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -97,12 +103,18 @@
          <widget class="QLabel" name="IconG">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconG</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/book-row.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -126,12 +138,18 @@
          <widget class="QLabel" name="IconP">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconP</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/fire.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -155,12 +173,18 @@
          <widget class="QLabel" name="IconR">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconR</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/book-stack.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -228,12 +252,18 @@
          <widget class="QLabel" name="labelA">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconA</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/user.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -339,7 +369,11 @@
            <string notr="true">border-width : 0px;</string>
           </property>
           <property name="text">
-           <string>Search</string>
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>Icons/search (1).png</normaloff>Icons/search (1).png</iconset>
           </property>
          </widget>
         </item>
@@ -398,7 +432,7 @@
            <x>0</x>
            <y>0</y>
            <width>1496</width>
-           <height>209</height>
+           <height>206</height>
           </rect>
          </property>
          <property name="minimumSize">
@@ -429,6 +463,12 @@
             <item>
              <widget class="QLabel" name="Book1">
               <property name="minimumSize">
+               <size>
+                <width>150</width>
+                <height>200</height>
+               </size>
+              </property>
+              <property name="maximumSize">
                <size>
                 <width>150</width>
                 <height>200</height>
@@ -485,7 +525,7 @@
               <property name="sizeHint" stdset="0">
                <size>
                 <width>20</width>
-                <height>20</height>
+                <height>200</height>
                </size>
               </property>
              </spacer>
@@ -711,7 +751,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
