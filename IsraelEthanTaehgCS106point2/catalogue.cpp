@@ -15,7 +15,8 @@ Catalogue::Catalogue(QWidget *parent) :
 {
     ui->setupUi(this);
 
-
+//    ui->bookButton_1->setIcon(QIcon(":/Images/images/spaceAndMotion.png"));
+//    ui->bookButton_1->setIconSize(QSize(100,100));
 
     QVector<BookOption*> books;
 
@@ -49,6 +50,7 @@ Catalogue::Catalogue(QWidget *parent) :
             }
         }
     }
+
 
 }
 
@@ -90,17 +92,6 @@ void Catalogue::on_search_clicked()
 }
 
 //---------login attempt stuff---------
-
-
-
-
-
-
-
-
-
-
-
 
 
 

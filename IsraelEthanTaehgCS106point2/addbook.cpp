@@ -84,47 +84,47 @@ void AddBook::on_editBook_clicked()
 
 void AddBook::on_addBookBtn_clicked()
 {
-    QFile file("Books");
-    QString title = ui->titleLineEdit->text();
-    QString author = ui->authorLineEdit->text();
-    QString subjects = ui->subjectsTextEdit->text();
-    QString isbnNumber = ui->ISBNnumberLineEdit->text();
-    QString summery = ui->summeryTextEdit->text();
-    QString contents = ui->contentsTextEdit->text();
-    QString notes = ui->notesTextEdit->text();
-    QString publisher = ui->publisherTextEdit->text();
-    QString description = ui->descriptionTextEdit->text();
-    QString edition = ui->editionTextEdit->text();
+//    QFile file("Books");
+//    QString title = ui->titleLineEdit->text();
+//    QString author = ui->authorLineEdit->text();
+//    QString subjects = ui->subjectsTextEdit->text();
+//    QString isbnNumber = ui->ISBNnumberLineEdit->text();
+//    QString summery = ui->summeryTextEdit->text();
+//    QString contents = ui->contentsTextEdit->text();
+//    QString notes = ui->notesTextEdit->text();
+//    QString publisher = ui->publisherTextEdit->text();
+//    QString description = ui->descriptionTextEdit->text();
+//    QString edition = ui->editionTextEdit->text();
 
-    QVector<QString> content;
-    content.append(title);
-    content.append(author);
-    content.append(subjects);
-    content.append(isbnNumber);
-    content.append(summery);
-    content.append(contents);
-    content.append(notes);
-    content.append(publisher);
-    content.append(description);
-    content.append(edition);
-    content.append("1"); //1 for access level 1
+//    QVector<QString> content;
+//    content.append(title);
+//    content.append(author);
+//    content.append(subjects);
+//    content.append(isbnNumber);
+//    content.append(summery);
+//    content.append(contents);
+//    content.append(notes);
+//    content.append(publisher);
+//    content.append(description);
+//    content.append(edition);
+//    content.append("1"); //1 for access level 1
 
-    if(fHand.CheckValidUser(title, "Books")){
-        fHand.WriteFile("Books", content);
+//    if(fHand.CheckValidUser(title, "Books")){
+//        fHand.WriteFile("Books", content);
 
-        QMessageBox box(this);
-        box.setIcon(QMessageBox::Information);
-        box.setText("Congratulations, you have signed up successfully");
-        box.setWindowTitle("Sign-up");
-        box.setStandardButtons(QMessageBox::Ok);
-        box.exec();
-    } else {
-        QMessageBox box(this);
-        box.setIcon(QMessageBox::Warning);
-        box.setText("Unfortunatley that username has been taken");
-        box.setWindowTitle("Sign-up failed");
-        box.setStandardButtons(QMessageBox::Ok);
-        box.exec();
-    }
+//        QMessageBox box(this);
+//        box.setIcon(QMessageBox::Information);
+//        box.setText("Congratulations, you have signed up successfully");
+//        box.setWindowTitle("Sign-up");
+//        box.setStandardButtons(QMessageBox::Ok);
+//        box.exec();
+//    } else {
+//        QMessageBox box(this);
+//        box.setIcon(QMessageBox::Warning);
+//        box.setText("Unfortunatley that username has been taken");
+//        box.setWindowTitle("Sign-up failed");
+//        box.setStandardButtons(QMessageBox::Ok);
+//        box.exec();
+//    }
 }
 
