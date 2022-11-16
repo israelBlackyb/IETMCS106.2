@@ -118,6 +118,12 @@
            <height>200</height>
           </size>
          </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
          <property name="baseSize">
           <size>
            <width>0</width>
@@ -125,7 +131,13 @@
           </size>
          </property>
          <property name="text">
-          <string>BookImage</string>
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>Icons/add-image.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
          </property>
         </widget>
        </item>

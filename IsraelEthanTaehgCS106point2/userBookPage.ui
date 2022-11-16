@@ -26,13 +26,13 @@
       <property name="styleSheet">
        <string notr="true">background-color: #50A6F4;</string>
       </property>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>0</x>
          <y>10</y>
          <width>829</width>
-         <height>31</height>
+         <height>33</height>
         </rect>
        </property>
        <layout class="QHBoxLayout" name="horizontalLayout">
@@ -51,8 +51,20 @@
         </item>
         <item>
          <widget class="QLabel" name="iconHome">
+          <property name="maximumSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
           <property name="text">
-           <string>IconH</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/home.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -65,8 +77,20 @@
         </item>
         <item>
          <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
           <property name="text">
-           <string>IconG</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/book-row.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -79,8 +103,20 @@
         </item>
         <item>
          <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
           <property name="text">
-           <string>IconP</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/fire.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -93,8 +129,20 @@
         </item>
         <item>
          <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
           <property name="text">
-           <string>IconR</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/book-stack.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -139,8 +187,20 @@
         </item>
         <item>
          <widget class="QLabel" name="label_5">
+          <property name="maximumSize">
+           <size>
+            <width>31</width>
+            <height>31</height>
+           </size>
+          </property>
           <property name="text">
-           <string>IconA</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/user.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -217,7 +277,11 @@
            </size>
           </property>
           <property name="text">
-           <string>Search</string>
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>Icons/search (1).png</normaloff>Icons/search (1).png</iconset>
           </property>
          </widget>
         </item>
@@ -303,7 +367,7 @@
          <string notr="true">background-color: #fff;
 </string>
         </property>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -676,7 +740,7 @@
      <x>0</x>
      <y>0</y>
      <width>842</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

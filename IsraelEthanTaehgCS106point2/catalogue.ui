@@ -26,7 +26,7 @@
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>50</height>
+        <height>55</height>
        </size>
       </property>
       <property name="styleSheet">
@@ -35,10 +35,10 @@
       <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>10</y>
-         <width>1167</width>
-         <height>31</height>
+         <x>10</x>
+         <y>0</y>
+         <width>1141</width>
+         <height>52</height>
         </rect>
        </property>
        <layout class="QHBoxLayout" name="NavBar">
@@ -68,12 +68,21 @@
          <widget class="QLabel" name="IconH">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconH</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/home.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
           </property>
          </widget>
         </item>
@@ -97,12 +106,18 @@
          <widget class="QLabel" name="IconG1">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconG</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/book-row.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -126,12 +141,18 @@
          <widget class="QLabel" name="IconP">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconP</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/fire.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -155,12 +176,18 @@
          <widget class="QLabel" name="IconR">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconR</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/book-stack.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -228,12 +255,18 @@
          <widget class="QLabel" name="labelA">
           <property name="maximumSize">
            <size>
-            <width>16777215</width>
-            <height>50</height>
+            <width>31</width>
+            <height>31</height>
            </size>
           </property>
           <property name="text">
-           <string>IconA</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icons/user.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -299,8 +332,26 @@
       </item>
       <item>
        <widget class="QLabel" name="IconG2">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="text">
-         <string>IconG</string>
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>Icons/book-row.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -333,7 +384,7 @@
          <enum>Qt::Vertical</enum>
         </property>
         <property name="sizeType">
-         <enum>QSizePolicy::Maximum</enum>
+         <enum>QSizePolicy::Minimum</enum>
         </property>
         <property name="sizeHint" stdset="0">
          <size>
@@ -380,7 +431,11 @@ border-bottom-right-radius: 9px;
 border-bottom-left-radius: 9px;</string>
         </property>
         <property name="text">
-         <string>Search</string>
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>Icons/search.png</normaloff>Icons/search.png</iconset>
         </property>
        </widget>
       </item>
@@ -679,15 +734,15 @@ color: #000;</string>
               <item row="10" column="10">
                <spacer name="verticalSpacer_16">
                 <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
+                 <enum>Qt::Vertical</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Maximum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>17</width>
-                  <height>20</height>
+                  <width>20</width>
+                  <height>17</height>
                  </size>
                 </property>
                </spacer>
@@ -967,7 +1022,7 @@ color: #000;</string>
               <item row="5" column="3">
                <spacer name="horizontalSpacer_14">
                 <property name="orientation">
-                 <enum>Qt::Vertical</enum>
+                 <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Minimum</enum>
@@ -1009,15 +1064,15 @@ color: #000;</string>
               <item row="2" column="0">
                <spacer name="horizontalSpacer_10">
                 <property name="orientation">
-                 <enum>Qt::Vertical</enum>
+                 <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Minimum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>15</width>
-                  <height>20</height>
+                  <width>20</width>
+                  <height>15</height>
                  </size>
                 </property>
                </spacer>
@@ -1398,15 +1453,15 @@ color: #000;</string>
               <item row="7" column="8">
                <spacer name="verticalSpacer_18">
                 <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
+                 <enum>Qt::Vertical</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Minimum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>10</width>
-                  <height>20</height>
+                  <width>20</width>
+                  <height>10</height>
                  </size>
                 </property>
                </spacer>
@@ -1485,15 +1540,15 @@ color: #000;</string>
               <item row="5" column="0">
                <spacer name="horizontalSpacer_13">
                 <property name="orientation">
-                 <enum>Qt::Vertical</enum>
+                 <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Minimum</enum>
                 </property>
                 <property name="sizeHint" stdset="0">
                  <size>
-                  <width>10</width>
-                  <height>20</height>
+                  <width>20</width>
+                  <height>10</height>
                  </size>
                 </property>
                </spacer>
@@ -1591,7 +1646,23 @@ color: #000;</string>
               <item row="11" column="3">
                <spacer name="horizontalSpacer_25">
                 <property name="orientation">
-                 <enum>Qt::Vertical</enum>
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="7">
+               <spacer name="horizontalSpacer_15">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
                 </property>
                 <property name="sizeType">
                  <enum>QSizePolicy::Maximum</enum>
