@@ -1,4 +1,4 @@
- #include "addbook.h"
+#include "addbook.h"
 #include "ui_addbook.h"
 #include "filehandling.h"
 #include "mainwindow.h"
@@ -12,6 +12,7 @@
 #include <QDebug>
 #include <QTextBrowser>
 #include <QMessageBox>
+
 #include <QDialog>
 #include <QFileDialog>
 
@@ -78,7 +79,23 @@ void AddBook::on_editBook_clicked()
 
 }
 
+void AddBook::on_imageBtn_clicked()
+{
+    QString filename = QFileDialog::getOpenFileName(this, tr("Choose"), "", tr("images(*.png *.jpg *.bmp *.gif)"));
 
+    if(QString::compare(filename, QString()) != 0) {
+        QImage image;
+        bool valid = image.load(filename);
+        if(valid) {
+            image = image.scaledToWidth(ui->imageBtn->width(), Qt::SmoothTransformation);
+            ui->bookImage->setPixmap(QPixmap::fromImage(image));
+
+        }
+        else {
+            //error handling
+        }
+    }
+};
 
 void AddBook::on_addBookBtn_clicked()
 {
@@ -93,6 +110,7 @@ void AddBook::on_addBookBtn_clicked()
     QString publisher = ui->publisherTextEdit->toPlainText();
     QString description = ui->descriptionTextEdit->toPlainText();
     QString edition = ui->editionTextEdit->toPlainText();
+    QString image = ui->bookImage->text();
 
     QVector<QString> content;
     content.append(title);
@@ -105,6 +123,7 @@ void AddBook::on_addBookBtn_clicked()
     content.append(publisher);
     content.append(description);
     content.append(edition);
+    content.append(image);
     content.append("1"); //1 for access level 1
 
     if(fHand.CheckValidUser(title, "Books")){
@@ -128,19 +147,5 @@ void AddBook::on_addBookBtn_clicked()
 }
 
 
-void AddBook::on_imageBtn_clicked()
-{
-    QString filename = QFileDialog::getOpenFileName(this, tr("Choose"), "", tr("images(*.png *.jpg *.bmp *.gif)"));
 
-    if(QString::compare(filename, QString()) != 0) {
-        QImage image;
-        bool void = image.load(filename);
-        if(void) {
-            ui->lbl_image->setPixmap(QPixmap::fromImage(image));
-        }
-        else {
-            //error handling
-        }
-    }
-};
 
