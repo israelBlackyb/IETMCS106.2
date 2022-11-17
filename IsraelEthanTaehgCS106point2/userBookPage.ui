@@ -26,7 +26,7 @@
       <property name="styleSheet">
        <string notr="true">background-color: #50A6F4;</string>
       </property>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -303,7 +303,7 @@
          <string notr="true">background-color: #fff;
 </string>
         </property>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -341,22 +341,12 @@
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_3">
                 <item>
-                 <widget class="QPushButton" name="userCheckBtn">
+                 <widget class="QPushButton" name="reserveBtn">
                   <property name="styleSheet">
                    <string notr="true">background-color: #50A6F4;</string>
                   </property>
                   <property name="text">
-                   <string>Checkout</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QPushButton" name="userAddListBtn">
-                  <property name="styleSheet">
-                   <string notr="true">background-color: #50A6F4;</string>
-                  </property>
-                  <property name="text">
-                   <string>Add To List</string>
+                   <string>Reserve</string>
                   </property>
                  </widget>
                 </item>

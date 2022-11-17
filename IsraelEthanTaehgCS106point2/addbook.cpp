@@ -12,6 +12,8 @@
 #include <QDebug>
 #include <QTextBrowser>
 #include <QMessageBox>
+#include <QDialog>
+#include <QFileDialog>
 
 QVector<QLabel*> bookCoversList;
 QVector<QTextBrowser*> bookInformation;
@@ -128,4 +130,21 @@ void AddBook::on_addBookBtn_clicked()
     }
     file.close();
 }
+
+
+void AddBook::on_imageBtn_clicked()
+{
+    QString filename = QFileDialog::getOpenFileName(this, tr("Choose"), "", tr("images(*.png *.jpg *.bmp *.gif)"));
+
+    if(QString::compare(filename, QString()) != 0) {
+        QImage image;
+        bool void = image.load(filename);
+        if(void) {
+            ui->lbl_image->setPixmap(QPixmap::fromImage(image));
+        }
+        else {
+            //error handling
+        }
+    }
+};
 

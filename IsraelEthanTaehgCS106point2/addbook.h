@@ -28,6 +28,8 @@ private slots:
 
     void on_addBookBtn_clicked();
 
+    void on_imageBtn_clicked();
+
 private:
     Ui::AddBook *ui;
     FileHandling fHand;
