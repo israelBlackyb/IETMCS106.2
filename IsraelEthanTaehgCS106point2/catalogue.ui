@@ -479,16 +479,6 @@ border-bottom-left-radius: 9px;</string>
        </spacer>
       </item>
       <item>
-       <widget class="QPushButton" name="checkoutButton">
-        <property name="styleSheet">
-         <string notr="true">border-width : 0px;</string>
-        </property>
-        <property name="text">
-         <string>Checkout</string>
-        </property>
-       </widget>
-      </item>
-      <item>
        <spacer name="horizontalSpacer_6">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -723,7 +713,7 @@ color: #000;</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
+             <y>-596</y>
              <width>963</width>
              <height>1166</height>
             </rect>
@@ -809,6 +799,10 @@ color: #000;</string>
                 </property>
                 <property name="text">
                  <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b13.PNG</normaloff>Images/Bookcovers_noTitle/b13.PNG</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -946,6 +940,10 @@ color: #000;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b10.PNG</normaloff>Images/Bookcovers_noTitle/b10.PNG</iconset>
+                </property>
                 <property name="iconSize">
                  <size>
                   <width>234</width>
@@ -980,6 +978,10 @@ color: #000;</string>
                 </property>
                 <property name="text">
                  <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/HPCC.PNG</normaloff>Images/Bookcovers_noTitle/HPCC.PNG</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -1142,6 +1144,10 @@ color: #000;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b15.PNG</normaloff>Images/Bookcovers_noTitle/b15.PNG</iconset>
+                </property>
                 <property name="iconSize">
                  <size>
                   <width>234</width>
@@ -1219,6 +1225,10 @@ color: #000;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b5.PNG</normaloff>Images/Bookcovers_noTitle/b5.PNG</iconset>
+                </property>
                 <property name="iconSize">
                  <size>
                   <width>234</width>
@@ -1285,6 +1295,10 @@ color: #000;</string>
                 </property>
                 <property name="text">
                  <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b9.PNG</normaloff>Images/Bookcovers_noTitle/b9.PNG</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -1377,6 +1391,10 @@ color: #000;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b7.PNG</normaloff>Images/Bookcovers_noTitle/b7.PNG</iconset>
+                </property>
                 <property name="iconSize">
                  <size>
                   <width>234</width>
@@ -1405,6 +1423,10 @@ color: #000;</string>
                 </property>
                 <property name="text">
                  <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b11.PNG</normaloff>Images/Bookcovers_noTitle/b11.PNG</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -1536,6 +1558,10 @@ color: #000;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b6.PNG</normaloff>Images/Bookcovers_noTitle/b6.PNG</iconset>
+                </property>
                 <property name="iconSize">
                  <size>
                   <width>234</width>
@@ -1570,6 +1596,10 @@ color: #000;</string>
                 </property>
                 <property name="text">
                  <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b8.PNG</normaloff>Images/Bookcovers_noTitle/b8.PNG</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -1664,6 +1694,10 @@ color: #000;</string>
                 <property name="text">
                  <string/>
                 </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b16.PNG</normaloff>Images/Bookcovers_noTitle/b16.PNG</iconset>
+                </property>
                 <property name="iconSize">
                  <size>
                   <width>234</width>
@@ -1682,6 +1716,10 @@ color: #000;</string>
                 </property>
                 <property name="text">
                  <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normaloff>Images/Bookcovers_noTitle/b14.PNG</normaloff>Images/Bookcovers_noTitle/b14.PNG</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
